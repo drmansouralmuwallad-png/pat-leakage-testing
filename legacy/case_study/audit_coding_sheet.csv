@@ -1,0 +1,4 @@
+study,year,venue,access,states_index,verifiable,leak_evident,quote,coder,notes
+Bayer et al. (arXiv:2503.04757),2024,SpliTech,YES,n/a,n/a,n/a,twin generates the demand series; forecasting is univariate multistep,auditor-1,EXCLUDED - simulated state not used as a predictor (criterion 3 fails)
+Ziari et al.,2025,Int J Production Economics,NO,,,,,,candidate; methods not accessible here
+Su and Lee,2023,(to identify),NO,,,,,,candidate; known only second-hand - read primary source before coding

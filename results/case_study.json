@@ -1,0 +1,2519 @@
+{
+ "CA_1|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.022305252000023756,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10130948799996986,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 6.369604945650464e-05,
+    "lgbm": 134.46441632653526
+   },
+   "rmse_without_twin": {
+    "ridge": 6.383320863890555e-05,
+    "lgbm": 132.24791146309073
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.022082594000039535,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10793115800015585,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 252.30332689956097,
+    "lgbm": 181.4494603776063
+   },
+   "rmse_without_twin": {
+    "ridge": 255.83943641233907,
+    "lgbm": 216.4511757305735
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.016732348000005004,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.08169390099965312,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 252.43260152247692,
+    "lgbm": 200.44744190823195
+   },
+   "rmse_without_twin": {
+    "ridge": 255.83943641233907,
+    "lgbm": 216.4511757305735
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.02185721600017132,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08622967600012998,
+   "pat_runs": 11
+  }
+ },
+ "CA_1|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.014192574000389868,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.14039662200002567,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00037486086684923337,
+    "lgbm": 63.764122675690984
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0003768433067165472,
+    "lgbm": 61.899779214258395
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.026920261999748618,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.12284954999995534,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 94.26494499407102,
+    "lgbm": 93.99630371449508
+   },
+   "rmse_without_twin": {
+    "ridge": 94.88251167624756,
+    "lgbm": 95.29707249793793
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.016840882999986206,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10713061699971149,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 94.92793137983729,
+    "lgbm": 94.53726724146568
+   },
+   "rmse_without_twin": {
+    "ridge": 94.88251167624756,
+    "lgbm": 95.29707249793793
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.020435141999769257,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.1158680559997265,
+   "pat_runs": 11
+  }
+ },
+ "CA_1|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02572233800037793,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.11810476899972855,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00029368990574937337,
+    "lgbm": 57.151718350309444
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00029150562340494253,
+    "lgbm": 58.6939619059573
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02552038800013179,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.11248874500006423,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 91.79784817277853,
+    "lgbm": 87.6813519239591
+   },
+   "rmse_without_twin": {
+    "ridge": 91.2283041727316,
+    "lgbm": 94.38984602054742
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.03771196699972279,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.15058342500014987,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 92.16486461159795,
+    "lgbm": 88.66044398224398
+   },
+   "rmse_without_twin": {
+    "ridge": 91.2283041727316,
+    "lgbm": 94.38984602054742
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.02044694200003505,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10053715100002591,
+   "pat_runs": 11
+  }
+ },
+ "CA_2|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.028364447000058135,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09837983299985353,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00016745269147149148,
+    "lgbm": 449.60530644700606
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00016773044393081796,
+    "lgbm": 442.1069297770852
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.022372371000074054,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.11251929700028995,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 291.6501221527217,
+    "lgbm": 472.90186499796005
+   },
+   "rmse_without_twin": {
+    "ridge": 291.66133623891824,
+    "lgbm": 454.55206767974926
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.015911670999685157,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.07876026699977956,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 291.34169826467024,
+    "lgbm": 472.286909570863
+   },
+   "rmse_without_twin": {
+    "ridge": 291.66133623891824,
+    "lgbm": 454.55206767974926
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.02321630799997365,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10651006399984908,
+   "pat_runs": 11
+  }
+ },
+ "CA_2|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018268236000039906,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.0992382220001673,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0004962220181936808,
+    "lgbm": 49.304477061240334
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00048804227737619374,
+    "lgbm": 48.47629066895693
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.029544521999923745,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.09821582399990803,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 76.13365164967703,
+    "lgbm": 78.22515768866404
+   },
+   "rmse_without_twin": {
+    "ridge": 77.03184090802876,
+    "lgbm": 79.63137502986922
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.0210457220000535,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10408551399996213,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 77.26539914075849,
+    "lgbm": 78.3697563664865
+   },
+   "rmse_without_twin": {
+    "ridge": 77.03184090802876,
+    "lgbm": 79.63137502986922
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.021935072999895056,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10170536099985839,
+   "pat_runs": 11
+  }
+ },
+ "CA_2|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018764229000225896,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.1039171269999315,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0003534952182466372,
+    "lgbm": 153.29754084082444
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00034890562886905773,
+    "lgbm": 155.84415316968523
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.015821511000012833,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10581231299966021,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 152.0321770201291,
+    "lgbm": 192.26106961684164
+   },
+   "rmse_without_twin": {
+    "ridge": 149.89286872052193,
+    "lgbm": 181.72522187588936
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02459919600005378,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.1389930129998902,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 150.9723789910129,
+    "lgbm": 184.71266407424523
+   },
+   "rmse_without_twin": {
+    "ridge": 149.89286872052193,
+    "lgbm": 181.72522187588936
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.027263610999852972,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.09864236199973675,
+   "pat_runs": 11
+  }
+ },
+ "CA_3|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.017967821000183903,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10913799099989774,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 5.6381207304631924e-05,
+    "lgbm": 184.4163739320873
+   },
+   "rmse_without_twin": {
+    "ridge": 5.61585711304567e-05,
+    "lgbm": 186.33619330688055
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01814320499988753,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.08900174699965646,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 350.9191978750898,
+    "lgbm": 277.3013644178104
+   },
+   "rmse_without_twin": {
+    "ridge": 353.1835084572688,
+    "lgbm": 304.10679845081216
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.017110606000187545,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.07766130899972268,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 351.6433814241383,
+    "lgbm": 293.6083494850661
+   },
+   "rmse_without_twin": {
+    "ridge": 353.1835084572688,
+    "lgbm": 304.10679845081216
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.018516512000132934,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10178555900029096,
+   "pat_runs": 11
+  }
+ },
+ "CA_3|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01874546699991697,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09840176999978212,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00033812685392613424,
+    "lgbm": 40.85411818771636
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0003344118889351862,
+    "lgbm": 41.87895785888791
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021132050000232994,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10048182700029429,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 79.18672210298676,
+    "lgbm": 72.49411395771932
+   },
+   "rmse_without_twin": {
+    "ridge": 77.32039283317059,
+    "lgbm": 81.27924015637927
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.025681147999875975,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.11021298100013155,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 76.41763920152471,
+    "lgbm": 77.11044749651195
+   },
+   "rmse_without_twin": {
+    "ridge": 77.32039283317059,
+    "lgbm": 81.27924015637927
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.016543481000098836,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08178445300018211,
+   "pat_runs": 11
+  }
+ },
+ "CA_3|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.014870845999666926,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.07627370500040342,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00019386185034675358,
+    "lgbm": 106.46830273678596
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0001912731491076841,
+    "lgbm": 101.32720570534418
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02054173400028958,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.11164309300011155,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 150.19845051941843,
+    "lgbm": 156.15472921781188
+   },
+   "rmse_without_twin": {
+    "ridge": 149.1587952284919,
+    "lgbm": 158.02471959731162
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02007488099980037,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.09826415799989263,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 148.2690103148515,
+    "lgbm": 166.59987618796276
+   },
+   "rmse_without_twin": {
+    "ridge": 149.1587952284919,
+    "lgbm": 158.02471959731162
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.023053427999911946,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.11192684299976463,
+   "pat_runs": 11
+  }
+ },
+ "CA_4|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.0188332329998957,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09664429400027075,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00017541425801601338,
+    "lgbm": 112.03712498464476
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0001748206891438224,
+    "lgbm": 101.83902114916312
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01709256899994216,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.08193676700011565,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 123.73590740058502,
+    "lgbm": 157.37868988958306
+   },
+   "rmse_without_twin": {
+    "ridge": 124.19087953926073,
+    "lgbm": 139.3588647375952
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.022748266000235162,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.11135533200013015,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 123.78012353075782,
+    "lgbm": 148.40828051799136
+   },
+   "rmse_without_twin": {
+    "ridge": 124.19087953926073,
+    "lgbm": 139.3588647375952
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.02076669200005199,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.1014854820000437,
+   "pat_runs": 11
+  }
+ },
+ "CA_4|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018043265999949654,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09942690799971388,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0006914629810019296,
+    "lgbm": 49.60766744602591
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0006719785773433416,
+    "lgbm": 46.699100587417206
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02196185000002515,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10394502799999827,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 66.6218808679728,
+    "lgbm": 70.1057129489046
+   },
+   "rmse_without_twin": {
+    "ridge": 66.77474688288298,
+    "lgbm": 69.04969312630382
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.017675376000170218,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.09889275100022132,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 66.86407329200857,
+    "lgbm": 68.71129961172589
+   },
+   "rmse_without_twin": {
+    "ridge": 66.77474688288298,
+    "lgbm": 69.04969312630382
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.01950018200022896,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10298814499992659,
+   "pat_runs": 11
+  }
+ },
+ "CA_4|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02930597799968382,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09497312300027261,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0012044019503069316,
+    "lgbm": 83.66978145668322
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0011800364739655807,
+    "lgbm": 86.68074655013659
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.03023449600004824,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.1074904880001668,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 64.71710424700208,
+    "lgbm": 79.62994399365634
+   },
+   "rmse_without_twin": {
+    "ridge": 64.13764808356886,
+    "lgbm": 80.76769006673184
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02009455200004595,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.09927607700001317,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 63.99754765564984,
+    "lgbm": 80.45574247999743
+   },
+   "rmse_without_twin": {
+    "ridge": 64.13764808356886,
+    "lgbm": 80.76769006673184
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.01730154599999878,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.0781229069998517,
+   "pat_runs": 11
+  }
+ },
+ "TX_1|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.014519693999773153,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.0800648879999244,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 9.664087309364714e-05,
+    "lgbm": 133.75284004983632
+   },
+   "rmse_without_twin": {
+    "ridge": 9.761798955208568e-05,
+    "lgbm": 137.03071239734885
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021488908000264928,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10990079199973479,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 237.62659795859824,
+    "lgbm": 209.69253331023492
+   },
+   "rmse_without_twin": {
+    "ridge": 241.2794215524993,
+    "lgbm": 230.53821126603845
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02367879700022968,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10795468300011635,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 241.26482565257982,
+    "lgbm": 240.38000851736905
+   },
+   "rmse_without_twin": {
+    "ridge": 241.2794215524993,
+    "lgbm": 230.53821126603845
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.022271235999596684,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.1192833340001016,
+   "pat_runs": 11
+  }
+ },
+ "TX_1|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.019323240000176156,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10124176799990892,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0008137631815805917,
+    "lgbm": 36.064929054727465
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0008041745326916081,
+    "lgbm": 36.473578439578496
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01978821600005176,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10298281599989423,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 56.35370568771898,
+    "lgbm": 57.712826681450714
+   },
+   "rmse_without_twin": {
+    "ridge": 56.02617196054456,
+    "lgbm": 60.268332011923185
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.029752207000001363,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.11357840799973928,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 55.67658296348124,
+    "lgbm": 60.32973537861366
+   },
+   "rmse_without_twin": {
+    "ridge": 56.02617196054456,
+    "lgbm": 60.268332011923185
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.023097865000181628,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.11456142299994099,
+   "pat_runs": 11
+  }
+ },
+ "TX_1|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.019434059000104753,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10947906100000182,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00036283602604978614,
+    "lgbm": 71.49846178165664
+   },
+   "rmse_without_twin": {
+    "ridge": 0.000361058759924429,
+    "lgbm": 70.40751236311229
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.025602078999781952,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.12270569099973727,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 117.33291845370036,
+    "lgbm": 107.07257260291324
+   },
+   "rmse_without_twin": {
+    "ridge": 117.40468192283377,
+    "lgbm": 109.78919577645298
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02314089200035596,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.09970318500018038,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 117.08726980475043,
+    "lgbm": 109.4997638899118
+   },
+   "rmse_without_twin": {
+    "ridge": 117.40468192283377,
+    "lgbm": 109.78919577645298
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.01913927000032345,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.09130672899982528,
+   "pat_runs": 11
+  }
+ },
+ "TX_2|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018421151999973517,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.11379807100001926,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 6.239078163295505e-05,
+    "lgbm": 162.9382201200106
+   },
+   "rmse_without_twin": {
+    "ridge": 6.0997831526662094e-05,
+    "lgbm": 153.50038275524764
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01643812500014974,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.08121889799986093,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 264.7147707769387,
+    "lgbm": 279.0047959194607
+   },
+   "rmse_without_twin": {
+    "ridge": 262.55026514922776,
+    "lgbm": 254.4884900499994
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021552592999796616,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10826766399986809,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 264.17904722232953,
+    "lgbm": 273.26317947542896
+   },
+   "rmse_without_twin": {
+    "ridge": 262.55026514922776,
+    "lgbm": 254.4884900499994
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.021299336000083713,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10939524399964284,
+   "pat_runs": 11
+  }
+ },
+ "TX_2|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018456757999956608,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09798969399980706,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0004654412070197057,
+    "lgbm": 34.0775736061659
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0004605127465000267,
+    "lgbm": 30.994071819202265
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01958883399993283,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.08179968500007817,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 57.788377177996274,
+    "lgbm": 57.0059099401847
+   },
+   "rmse_without_twin": {
+    "ridge": 57.857496028106645,
+    "lgbm": 60.486031642029985
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.023341927000274154,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10458363399993686,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 57.91610061996033,
+    "lgbm": 59.65615081627251
+   },
+   "rmse_without_twin": {
+    "ridge": 57.857496028106645,
+    "lgbm": 60.486031642029985
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.016046940999785875,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.07672762200036232,
+   "pat_runs": 11
+  }
+ },
+ "TX_2|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.013790187999802583,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.07912749400020402,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00022733963636800014,
+    "lgbm": 74.15848764331264
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00022613791356054745,
+    "lgbm": 70.09329728763281
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.016473374999804946,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.08499261099996147,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 110.3825868821855,
+    "lgbm": 107.93932000006545
+   },
+   "rmse_without_twin": {
+    "ridge": 109.90233001466176,
+    "lgbm": 115.33184373336495
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.024143418000221573,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10504516399987551,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 109.62528587502406,
+    "lgbm": 112.05090483644064
+   },
+   "rmse_without_twin": {
+    "ridge": 109.90233001466176,
+    "lgbm": 115.33184373336495
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.022245065000333852,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10592335499995897,
+   "pat_runs": 11
+  }
+ },
+ "TX_3|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01793970700009595,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.07628622700030974,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 9.609681885660059e-05,
+    "lgbm": 224.34855010584408
+   },
+   "rmse_without_twin": {
+    "ridge": 9.854946648403354e-05,
+    "lgbm": 238.25925866371054
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.015958463000060874,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.07701595599974098,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 287.6313074543276,
+    "lgbm": 314.2855133871734
+   },
+   "rmse_without_twin": {
+    "ridge": 295.0703731567629,
+    "lgbm": 321.9196593131325
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.016293949000100838,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.0849267769999642,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 295.297233636232,
+    "lgbm": 304.7523296767807
+   },
+   "rmse_without_twin": {
+    "ridge": 295.0703731567629,
+    "lgbm": 321.9196593131325
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.020217153999965376,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08237166199978674,
+   "pat_runs": 11
+  }
+ },
+ "TX_3|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.015282343999842851,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.08065470099973027,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0007601045299367201,
+    "lgbm": 45.66959672040914
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0007496610973440406,
+    "lgbm": 43.242133970043575
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.016069691000211606,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.0797086429997762,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 59.67831869618265,
+    "lgbm": 65.29114078960431
+   },
+   "rmse_without_twin": {
+    "ridge": 58.61875725904719,
+    "lgbm": 62.02391955382918
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.023477592999824992,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10725906000016039,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 59.144481981005114,
+    "lgbm": 67.63015321766078
+   },
+   "rmse_without_twin": {
+    "ridge": 58.61875725904719,
+    "lgbm": 62.02391955382918
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.017443047000142542,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08563452699991103,
+   "pat_runs": 11
+  }
+ },
+ "TX_3|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.015116326999759622,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09718954299978577,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00035737315442832665,
+    "lgbm": 83.31382043253015
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00035560058303835487,
+    "lgbm": 81.79043271176259
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021722329999647627,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10875707499963028,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 110.53997953065303,
+    "lgbm": 109.2584995877989
+   },
+   "rmse_without_twin": {
+    "ridge": 109.94224748118853,
+    "lgbm": 115.91529254591951
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.015793745999872044,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.07720595799992225,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 110.60958173954616,
+    "lgbm": 118.08347748690704
+   },
+   "rmse_without_twin": {
+    "ridge": 109.94224748118853,
+    "lgbm": 115.91529254591951
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.024396726999839302,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.11632648800014067,
+   "pat_runs": 11
+  }
+ },
+ "WI_1|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02587235700002566,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.12502384600020378,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0001348598314954429,
+    "lgbm": 236.6801238402604
+   },
+   "rmse_without_twin": {
+    "ridge": 0.000134762850639298,
+    "lgbm": 238.36711278875472
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021633846999975503,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.09791872599998896,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 295.4998046332224,
+    "lgbm": 362.87636307491636
+   },
+   "rmse_without_twin": {
+    "ridge": 294.46839182953806,
+    "lgbm": 384.12972113471545
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02603835399986565,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.09893073600005664,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 292.33190335548375,
+    "lgbm": 389.3540571016927
+   },
+   "rmse_without_twin": {
+    "ridge": 294.46839182953806,
+    "lgbm": 384.12972113471545
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.01718094599982578,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.11775899099984599,
+   "pat_runs": 11
+  }
+ },
+ "WI_1|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01956153400033145,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.11125899900025615,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0003394115160152254,
+    "lgbm": 41.108946587510644
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0003406328408677497,
+    "lgbm": 37.37951518476117
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01968722500032527,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.1031561380000312,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 58.67740479858688,
+    "lgbm": 69.29475744562717
+   },
+   "rmse_without_twin": {
+    "ridge": 59.59477584773778,
+    "lgbm": 66.979462520697
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.017233919999853242,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.07947452400003385,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 60.14680205930225,
+    "lgbm": 67.39789328114057
+   },
+   "rmse_without_twin": {
+    "ridge": 59.59477584773778,
+    "lgbm": 66.979462520697
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.01872735200004172,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.09184002400024838,
+   "pat_runs": 11
+  }
+ },
+ "WI_1|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.014757205000023532,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.09426133400029357,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.00039098292359832174,
+    "lgbm": 88.00957819794526
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0003914152232624134,
+    "lgbm": 93.50889355807712
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.020624282999960997,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10495759500008717,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 105.81179878027766,
+    "lgbm": 110.98519050509431
+   },
+   "rmse_without_twin": {
+    "ridge": 106.23206069874003,
+    "lgbm": 114.50727790438224
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01711812599978657,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.082831172999704,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 105.74994099622356,
+    "lgbm": 117.45516997708222
+   },
+   "rmse_without_twin": {
+    "ridge": 106.23206069874003,
+    "lgbm": 114.50727790438224
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.017073945999982243,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08793336999997337,
+   "pat_runs": 11
+  }
+ },
+ "WI_2|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01396230000000287,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.12749797600008606,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0001200983338840672,
+    "lgbm": 679.2669283416307
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00012112030269193501,
+    "lgbm": 696.6765812527798
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021187609000207885,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10061643699964407,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 656.3733010517484,
+    "lgbm": 635.906188466957
+   },
+   "rmse_without_twin": {
+    "ridge": 659.6923624969162,
+    "lgbm": 627.3812772150195
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018787461000101757,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.07641687400018782,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 663.0443879920671,
+    "lgbm": 642.7862541271548
+   },
+   "rmse_without_twin": {
+    "ridge": 659.6923624969162,
+    "lgbm": 627.3812772150195
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.019772478000049887,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08024080499990305,
+   "pat_runs": 11
+  }
+ },
+ "WI_2|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01368434400001206,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.0725264400002743,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0006667347762845492,
+    "lgbm": 42.89097644465594
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0006383651887060122,
+    "lgbm": 41.89739721133161
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.016207633999783866,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.07682753700009926,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 48.64392823488887,
+    "lgbm": 55.941883728402175
+   },
+   "rmse_without_twin": {
+    "ridge": 46.89048460385922,
+    "lgbm": 57.60653706293336
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.017242573000203265,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.08412019400020654,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 48.02771454192265,
+    "lgbm": 57.84729674882779
+   },
+   "rmse_without_twin": {
+    "ridge": 46.89048460385922,
+    "lgbm": 57.60653706293336
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.023362237000128516,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.13846956100042007,
+   "pat_runs": 11
+  }
+ },
+ "WI_2|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018958538999868324,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10965215599981093,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0003126344807231898,
+    "lgbm": 162.4913093435324
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0003138816951248439,
+    "lgbm": 166.4035009931024
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.020968710000033752,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.09729165199996714,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 212.48043785010748,
+    "lgbm": 206.20850074990534
+   },
+   "rmse_without_twin": {
+    "ridge": 212.28923286299744,
+    "lgbm": 208.34120102197897
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.024477091999870026,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10566817400012951,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 213.82665688028274,
+    "lgbm": 217.9368741625239
+   },
+   "rmse_without_twin": {
+    "ridge": 212.28923286299744,
+    "lgbm": 208.34120102197897
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.021988666000197554,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.11335846500014668,
+   "pat_runs": 11
+  }
+ },
+ "WI_3|FOODS": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02090114700013146,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10980266900014612,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 8.245490300464387e-05,
+    "lgbm": 250.83280916660655
+   },
+   "rmse_without_twin": {
+    "ridge": 8.086788549073108e-05,
+    "lgbm": 261.38689692004556
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.021907128999828274,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.10961475600015547,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 415.1621927196428,
+    "lgbm": 351.8383769370396
+   },
+   "rmse_without_twin": {
+    "ridge": 416.11456856856773,
+    "lgbm": 360.2042230319954
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.019787669000379537,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.10668039200027124,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 420.19939169247084,
+    "lgbm": 363.77083613270423
+   },
+   "rmse_without_twin": {
+    "ridge": 416.11456856856773,
+    "lgbm": 360.2042230319954
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.02131458899975769,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10215364400028193,
+   "pat_runs": 11
+  }
+ },
+ "WI_3|HOBBIES": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.014802903000145307,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_min_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.07239098699983515,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0007691798318107012,
+    "lgbm": 45.97766480821372
+   },
+   "rmse_without_twin": {
+    "ridge": 0.0007643020133626889,
+    "lgbm": 45.5810253826545
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.01680139700010841,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.08035591999987446,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 58.84394047673985,
+    "lgbm": 53.54314542593765
+   },
+   "rmse_without_twin": {
+    "ridge": 58.87699443409,
+    "lgbm": 61.19754911699802
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018412769999940792,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.08142941500000234,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 58.43611849520717,
+    "lgbm": 59.13706078743723
+   },
+   "rmse_without_twin": {
+    "ridge": 58.87699443409,
+    "lgbm": 61.19754911699802
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.022955831000217586,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.10522847599986562,
+   "pat_runs": 11
+  }
+ },
+ "WI_3|HOUSEHOLD": {
+  "v0_as_built": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.018365014000210067,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand",
+    "roll_max_7",
+    "roll_mean_28",
+    "roll_mean_7",
+    "roll_std_7"
+   ],
+   "pat_seconds": 0.10260725699981776,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 0.0003208246443254495,
+    "lgbm": 78.08535201110784
+   },
+   "rmse_without_twin": {
+    "ridge": 0.00032207618207737246,
+    "lgbm": 76.65387989845856
+   }
+  },
+  "v1_rolling_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.020423956999820803,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_inv_position",
+    "dt_on_hand"
+   ],
+   "pat_seconds": 0.09711584600017886,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 114.8147558006305,
+    "lgbm": 106.37174216660843
+   },
+   "rmse_without_twin": {
+    "ridge": 116.24402584552404,
+    "lgbm": 111.73017690001718
+   }
+  },
+  "v2_twin_fixed": {
+   "nondeterministic_cols": [],
+   "t_determinism": 0.02464277100034451,
+   "pat_flagged": false,
+   "pat_cols": [],
+   "pat_seconds": 0.07840889299995979,
+   "pat_runs": 11,
+   "rmse_with_twin": {
+    "ridge": 115.02520022517558,
+    "lgbm": 111.18003660092316
+   },
+   "rmse_without_twin": {
+    "ridge": 116.24402584552404,
+    "lgbm": 111.73017690001718
+   }
+  },
+  "v2u_unseeded": {
+   "nondeterministic_cols": [
+    "X_test:dt_fill_rate_7d",
+    "X_test:dt_inv_position",
+    "X_test:dt_on_hand",
+    "X_test:dt_stockout",
+    "X_train:dt_fill_rate_7d",
+    "X_train:dt_inv_position",
+    "X_train:dt_on_hand",
+    "X_train:dt_stockout"
+   ],
+   "t_determinism": 0.016673672999786504,
+   "pat_flagged": true,
+   "pat_cols": [
+    "dt_fill_rate_7d",
+    "dt_inv_position",
+    "dt_on_hand",
+    "dt_stockout"
+   ],
+   "pat_seconds": 0.08349005399986709,
+   "pat_runs": 11
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "adult": {
+  "path": "tab_adult.csv",
+  "num": [
+   "age",
+   "fnlwgt",
+   "education_num",
+   "capital_gain",
+   "capital_loss",
+   "hours_per_week"
+  ],
+  "cat": [
+   "workclass",
+   "education",
+   "marital_status",
+   "occupation",
+   "relationship",
+   "race",
+   "sex",
+   "native_country"
+  ],
+  "n": 5000,
+  "base_rate": 0.2388
+ },
+ "german": {
+  "path": "tab_german.csv",
+  "num": [
+   "A2",
+   "A5",
+   "A8",
+   "A11",
+   "A13",
+   "A16",
+   "A18"
+  ],
+  "cat": [
+   "A1",
+   "A3",
+   "A4",
+   "A6",
+   "A7",
+   "A9",
+   "A10",
+   "A12",
+   "A14",
+   "A15",
+   "A17",
+   "A19",
+   "A20"
+  ],
+  "n": 1000,
+  "base_rate": 0.3
+ },
+ "breast_cancer": {
+  "path": "tab_breast_cancer.csv",
+  "num": [
+   "mean_radius",
+   "mean_texture",
+   "mean_perimeter",
+   "mean_area",
+   "mean_smoothness",
+   "mean_compactness",
+   "mean_concavity",
+   "mean_concave_points",
+   "mean_symmetry",
+   "mean_fractal_dimension",
+   "radius_error",
+   "texture_error",
+   "perimeter_error",
+   "area_error",
+   "smoothness_error",
+   "compactness_error",
+   "concavity_error",
+   "concave_points_error",
+   "symmetry_error",
+   "fractal_dimension_error",
+   "worst_radius",
+   "worst_texture",
+   "worst_perimeter",
+   "worst_area",
+   "worst_smoothness",
+   "worst_compactness",
+   "worst_concavity",
+   "worst_concave_points",
+   "worst_symmetry",
+   "worst_fractal_dimension"
+  ],
+  "cat": [],
+  "n": 569,
+  "base_rate": 0.37258347978910367
+ }
+}

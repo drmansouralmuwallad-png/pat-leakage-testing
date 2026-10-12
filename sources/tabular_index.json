@@ -1,0 +1,338 @@
+[
+ {
+  "dataset": "adult",
+  "source": "D1_impute_scale_ohe__clean",
+  "config": "D1_impute_scale_ohe",
+  "op": null,
+  "path": "tabular/adult/D1_impute_scale_ohe__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D1_impute_scale_ohe__IMPUTE_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "IMPUTE_ALL",
+  "path": "tabular/adult/D1_impute_scale_ohe__IMPUTE_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D1_impute_scale_ohe__SCALE_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "SCALE_ALL",
+  "path": "tabular/adult/D1_impute_scale_ohe__SCALE_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D1_impute_scale_ohe__SCALE_PANDAS_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "SCALE_PANDAS_ALL",
+  "path": "tabular/adult/D1_impute_scale_ohe__SCALE_PANDAS_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D2_target_encoding__clean",
+  "config": "D2_target_encoding",
+  "op": null,
+  "path": "tabular/adult/D2_target_encoding__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D2_target_encoding__TE_ALL",
+  "config": "D2_target_encoding",
+  "op": "TE_ALL",
+  "path": "tabular/adult/D2_target_encoding__TE_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D2_target_encoding__TE_LOO_ALL",
+  "config": "D2_target_encoding",
+  "op": "TE_LOO_ALL",
+  "path": "tabular/adult/D2_target_encoding__TE_LOO_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D2_target_encoding__TE_PANDAS_ALL",
+  "config": "D2_target_encoding",
+  "op": "TE_PANDAS_ALL",
+  "path": "tabular/adult/D2_target_encoding__TE_PANDAS_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D3_selection__clean",
+  "config": "D3_selection",
+  "op": null,
+  "path": "tabular/adult/D3_selection__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D3_selection__SEL_ALL",
+  "config": "D3_selection",
+  "op": "SEL_ALL",
+  "path": "tabular/adult/D3_selection__SEL_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D4_pca__clean",
+  "config": "D4_pca",
+  "op": null,
+  "path": "tabular/adult/D4_pca__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D4_pca__PCA_ALL_CONCAT",
+  "config": "D4_pca",
+  "op": "PCA_ALL_CONCAT",
+  "path": "tabular/adult/D4_pca__PCA_ALL_CONCAT.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D5_knn_impute__clean",
+  "config": "D5_knn_impute",
+  "op": null,
+  "path": "tabular/adult/D5_knn_impute__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D5_knn_impute__KNNIMPUTE_ALL",
+  "config": "D5_knn_impute",
+  "op": "KNNIMPUTE_ALL",
+  "path": "tabular/adult/D5_knn_impute__KNNIMPUTE_ALL.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D6_oversample__clean",
+  "config": "D6_oversample",
+  "op": null,
+  "path": "tabular/adult/D6_oversample__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D6_oversample__OVERSAMPLE_BEFORE_SPLIT",
+  "config": "D6_oversample",
+  "op": "OVERSAMPLE_BEFORE_SPLIT",
+  "path": "tabular/adult/D6_oversample__OVERSAMPLE_BEFORE_SPLIT.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D7_sklearn_target_encoder__clean",
+  "config": "D7_sklearn_target_encoder",
+  "op": null,
+  "path": "tabular/adult/D7_sklearn_target_encoder__clean.py"
+ },
+ {
+  "dataset": "adult",
+  "source": "D7_sklearn_target_encoder__TE_SK_ALL",
+  "config": "D7_sklearn_target_encoder",
+  "op": "TE_SK_ALL",
+  "path": "tabular/adult/D7_sklearn_target_encoder__TE_SK_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D1_impute_scale_ohe__clean",
+  "config": "D1_impute_scale_ohe",
+  "op": null,
+  "path": "tabular/german/D1_impute_scale_ohe__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D1_impute_scale_ohe__IMPUTE_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "IMPUTE_ALL",
+  "path": "tabular/german/D1_impute_scale_ohe__IMPUTE_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D1_impute_scale_ohe__SCALE_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "SCALE_ALL",
+  "path": "tabular/german/D1_impute_scale_ohe__SCALE_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D1_impute_scale_ohe__SCALE_PANDAS_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "SCALE_PANDAS_ALL",
+  "path": "tabular/german/D1_impute_scale_ohe__SCALE_PANDAS_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D2_target_encoding__clean",
+  "config": "D2_target_encoding",
+  "op": null,
+  "path": "tabular/german/D2_target_encoding__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D2_target_encoding__TE_ALL",
+  "config": "D2_target_encoding",
+  "op": "TE_ALL",
+  "path": "tabular/german/D2_target_encoding__TE_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D2_target_encoding__TE_LOO_ALL",
+  "config": "D2_target_encoding",
+  "op": "TE_LOO_ALL",
+  "path": "tabular/german/D2_target_encoding__TE_LOO_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D2_target_encoding__TE_PANDAS_ALL",
+  "config": "D2_target_encoding",
+  "op": "TE_PANDAS_ALL",
+  "path": "tabular/german/D2_target_encoding__TE_PANDAS_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D3_selection__clean",
+  "config": "D3_selection",
+  "op": null,
+  "path": "tabular/german/D3_selection__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D3_selection__SEL_ALL",
+  "config": "D3_selection",
+  "op": "SEL_ALL",
+  "path": "tabular/german/D3_selection__SEL_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D4_pca__clean",
+  "config": "D4_pca",
+  "op": null,
+  "path": "tabular/german/D4_pca__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D4_pca__PCA_ALL_CONCAT",
+  "config": "D4_pca",
+  "op": "PCA_ALL_CONCAT",
+  "path": "tabular/german/D4_pca__PCA_ALL_CONCAT.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D5_knn_impute__clean",
+  "config": "D5_knn_impute",
+  "op": null,
+  "path": "tabular/german/D5_knn_impute__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D5_knn_impute__KNNIMPUTE_ALL",
+  "config": "D5_knn_impute",
+  "op": "KNNIMPUTE_ALL",
+  "path": "tabular/german/D5_knn_impute__KNNIMPUTE_ALL.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D6_oversample__clean",
+  "config": "D6_oversample",
+  "op": null,
+  "path": "tabular/german/D6_oversample__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D6_oversample__OVERSAMPLE_BEFORE_SPLIT",
+  "config": "D6_oversample",
+  "op": "OVERSAMPLE_BEFORE_SPLIT",
+  "path": "tabular/german/D6_oversample__OVERSAMPLE_BEFORE_SPLIT.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D7_sklearn_target_encoder__clean",
+  "config": "D7_sklearn_target_encoder",
+  "op": null,
+  "path": "tabular/german/D7_sklearn_target_encoder__clean.py"
+ },
+ {
+  "dataset": "german",
+  "source": "D7_sklearn_target_encoder__TE_SK_ALL",
+  "config": "D7_sklearn_target_encoder",
+  "op": "TE_SK_ALL",
+  "path": "tabular/german/D7_sklearn_target_encoder__TE_SK_ALL.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D1_impute_scale_ohe__clean",
+  "config": "D1_impute_scale_ohe",
+  "op": null,
+  "path": "tabular/breast_cancer/D1_impute_scale_ohe__clean.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D1_impute_scale_ohe__IMPUTE_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "IMPUTE_ALL",
+  "path": "tabular/breast_cancer/D1_impute_scale_ohe__IMPUTE_ALL.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D1_impute_scale_ohe__SCALE_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "SCALE_ALL",
+  "path": "tabular/breast_cancer/D1_impute_scale_ohe__SCALE_ALL.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D1_impute_scale_ohe__SCALE_PANDAS_ALL",
+  "config": "D1_impute_scale_ohe",
+  "op": "SCALE_PANDAS_ALL",
+  "path": "tabular/breast_cancer/D1_impute_scale_ohe__SCALE_PANDAS_ALL.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D3_selection__clean",
+  "config": "D3_selection",
+  "op": null,
+  "path": "tabular/breast_cancer/D3_selection__clean.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D3_selection__SEL_ALL",
+  "config": "D3_selection",
+  "op": "SEL_ALL",
+  "path": "tabular/breast_cancer/D3_selection__SEL_ALL.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D4_pca__clean",
+  "config": "D4_pca",
+  "op": null,
+  "path": "tabular/breast_cancer/D4_pca__clean.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D4_pca__PCA_ALL_CONCAT",
+  "config": "D4_pca",
+  "op": "PCA_ALL_CONCAT",
+  "path": "tabular/breast_cancer/D4_pca__PCA_ALL_CONCAT.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D5_knn_impute__clean",
+  "config": "D5_knn_impute",
+  "op": null,
+  "path": "tabular/breast_cancer/D5_knn_impute__clean.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D5_knn_impute__KNNIMPUTE_ALL",
+  "config": "D5_knn_impute",
+  "op": "KNNIMPUTE_ALL",
+  "path": "tabular/breast_cancer/D5_knn_impute__KNNIMPUTE_ALL.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D6_oversample__clean",
+  "config": "D6_oversample",
+  "op": null,
+  "path": "tabular/breast_cancer/D6_oversample__clean.py"
+ },
+ {
+  "dataset": "breast_cancer",
+  "source": "D6_oversample__OVERSAMPLE_BEFORE_SPLIT",
+  "config": "D6_oversample",
+  "op": "OVERSAMPLE_BEFORE_SPLIT",
+  "path": "tabular/breast_cancer/D6_oversample__OVERSAMPLE_BEFORE_SPLIT.py"
+ }
+]

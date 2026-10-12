@@ -1,0 +1,82 @@
+pd_rolling_mean  done
+pd_rolling_center  done
+pd_rolling_quantile  done
+pd_ewm  done
+pd_expanding  done
+pd_diff  done
+pd_pct_change  done
+pd_ffill  done
+pd_bfill  done
+pd_interpolate  done
+pd_rank_pct  done
+pd_qcut  done
+pd_zscore  done
+np_gradient  done
+np_convolve_same  done
+sp_savgol  done
+sp_filtfilt  done
+sp_lfilter  done
+sp_medfilt  done
+sp_detrend  done
+sp_uniform_filter1d  done
+sp_gaussian_filter1d  done
+sm_decompose_2s_trend  done
+sm_decompose_1s_trend  done
+sm_decompose_1s_seasonal  done
+sm_stl_trend  done
+sm_hpfilter  done
+sm_cffilter  done
+sm_ets_fitted  done
+sm_ses_fixed  done
+sm_uc_filtered  done
+sm_uc_smoothed  done
+sm_arima_fitted  done
+sk_standard_scaler  done
+sk_minmax_scaler  done
+sk_kbins  done
+sk_function_log1p  done
+fe_lag_features  done
+fe_window_features  done
+fe_expanding_features  done
+sk_standard_scaler A done
+sk_standard_scaler B done
+sk_minmax_scaler A done
+sk_minmax_scaler B done
+sk_robust_scaler A done
+sk_robust_scaler B done
+sk_quantile_transformer A done
+sk_quantile_transformer B done
+sk_simple_imputer_mean A done
+sk_simple_imputer_mean B done
+sk_simple_imputer_median A done
+sk_simple_imputer_median B done
+sk_knn_imputer A done
+sk_knn_imputer B done
+sk_iterative_imputer A done
+sk_iterative_imputer B done
+sk_pca A done
+sk_pca B done
+sk_kbins A done
+sk_kbins B done
+sk_onehot A done
+sk_onehot B done
+sk_selectkbest A done
+sk_selectkbest B done
+sk_target_encoder A done
+sk_target_encoder B done
+ce_target_encoder A done
+ce_target_encoder B done
+ce_loo_encoder A done
+ce_loo_encoder B done
+ce_catboost_encoder A done
+ce_catboost_encoder B done
+ce_james_stein_encoder A done
+ce_james_stein_encoder B done
+ce_m_estimate_encoder A done
+ce_m_estimate_encoder B done
+ce_woe_encoder A done
+ce_woe_encoder B done
+ce_count_encoder A done
+ce_count_encoder B done
+ce_ordinal_encoder A done
+ce_ordinal_encoder B done

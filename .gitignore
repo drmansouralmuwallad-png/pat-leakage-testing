@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+dump/
+scal/
+*-fact/
+*.ir.py
+*.py.json
+.venv/
+venv/
+.DS_Store

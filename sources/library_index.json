@@ -1,0 +1,740 @@
+[
+ {
+  "kind": "temporal",
+  "case": "pd_rolling_mean",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "trailing window",
+  "path": "library/T__pd_rolling_mean.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_rolling_center",
+  "library": "pandas",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "center=True labels the window at its centre",
+  "path": "library/T__pd_rolling_center.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_rolling_quantile",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "trailing window",
+  "path": "library/T__pd_rolling_quantile.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_ewm",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "recursive, causal",
+  "path": "library/T__pd_ewm.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_expanding",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "causal",
+  "path": "library/T__pd_expanding.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_diff",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "backward difference",
+  "path": "library/T__pd_diff.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_pct_change",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "backward change",
+  "path": "library/T__pd_pct_change.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_ffill",
+  "library": "pandas",
+  "expected_admissible": true,
+  "masked": true,
+  "reason": "propagates last valid value",
+  "path": "library/T__pd_ffill.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_bfill",
+  "library": "pandas",
+  "expected_admissible": false,
+  "masked": true,
+  "reason": "uses next valid value",
+  "path": "library/T__pd_bfill.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_interpolate",
+  "library": "pandas",
+  "expected_admissible": false,
+  "masked": true,
+  "reason": "interpolates between previous and next valid values",
+  "path": "library/T__pd_interpolate.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_rank_pct",
+  "library": "pandas",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "rank within the full series",
+  "path": "library/T__pd_rank_pct.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_qcut",
+  "library": "pandas",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "bin edges from full-sample quantiles",
+  "path": "library/T__pd_qcut.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "pd_zscore",
+  "library": "pandas",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "full-sample mean and standard deviation",
+  "path": "library/T__pd_zscore.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "np_gradient",
+  "library": "numpy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "central differences in the interior",
+  "path": "library/T__np_gradient.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "np_convolve_same",
+  "library": "numpy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "mode='same' centres the kernel",
+  "path": "library/T__np_convolve_same.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_savgol",
+  "library": "scipy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "centred polynomial window",
+  "path": "library/T__sp_savgol.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_filtfilt",
+  "library": "scipy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "forward-backward (zero-phase) filtering",
+  "path": "library/T__sp_filtfilt.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_lfilter",
+  "library": "scipy",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "causal IIR filter",
+  "path": "library/T__sp_lfilter.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_medfilt",
+  "library": "scipy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "centred median window",
+  "path": "library/T__sp_medfilt.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_detrend",
+  "library": "scipy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "least-squares line fitted to the whole series",
+  "path": "library/T__sp_detrend.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_uniform_filter1d",
+  "library": "scipy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "centred by default (origin=0)",
+  "path": "library/T__sp_uniform_filter1d.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sp_gaussian_filter1d",
+  "library": "scipy",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "symmetric kernel",
+  "path": "library/T__sp_gaussian_filter1d.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_decompose_2s_trend",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "centred moving average",
+  "path": "library/T__sm_decompose_2s_trend.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_decompose_1s_trend",
+  "library": "statsmodels",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "one-sided moving average",
+  "path": "library/T__sm_decompose_1s_trend.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_decompose_1s_seasonal",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "seasonal component averages the detrended series over all periods",
+  "path": "library/T__sm_decompose_1s_seasonal.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_stl_trend",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "LOESS smoothing, two-sided",
+  "path": "library/T__sm_stl_trend.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_hpfilter",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "two-sided smoother",
+  "path": "library/T__sm_hpfilter.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_cffilter",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "asymmetric full-sample band-pass filter",
+  "path": "library/T__sm_cffilter.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_ets_fitted",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "one-step fitted values, but the smoothing parameter is estimated on the whole series",
+  "path": "library/T__sm_ets_fitted.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_ses_fixed",
+  "library": "statsmodels",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "fixed parameters and a known initial level: causal recursion",
+  "path": "library/T__sm_ses_fixed.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_uc_filtered",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "filtered state, but the variances are estimated by maximum likelihood on the whole series",
+  "path": "library/T__sm_uc_filtered.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_uc_smoothed",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "smoothed (two-sided) state",
+  "path": "library/T__sm_uc_smoothed.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sm_arima_fitted",
+  "library": "statsmodels",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "parameters estimated on the whole series",
+  "path": "library/T__sm_arima_fitted.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sk_standard_scaler",
+  "library": "scikit-learn",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "fitted on the whole series",
+  "path": "library/T__sk_standard_scaler.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sk_minmax_scaler",
+  "library": "scikit-learn",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "fitted on the whole series",
+  "path": "library/T__sk_minmax_scaler.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sk_kbins",
+  "library": "scikit-learn",
+  "expected_admissible": false,
+  "masked": false,
+  "reason": "bin edges fitted on the whole series",
+  "path": "library/T__sk_kbins.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "sk_function_log1p",
+  "library": "scikit-learn",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "stateless",
+  "path": "library/T__sk_function_log1p.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "fe_lag_features",
+  "library": "feature_engine",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "shifts by one period",
+  "path": "library/T__fe_lag_features.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "fe_window_features",
+  "library": "feature_engine",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "window shifted by one period by default",
+  "path": "library/T__fe_window_features.py"
+ },
+ {
+  "kind": "temporal",
+  "case": "fe_expanding_features",
+  "library": "feature_engine",
+  "expected_admissible": true,
+  "masked": false,
+  "reason": "expanding window shifted by one period by default",
+  "path": "library/T__fe_expanding_features.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_standard_scaler",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_standard_scaler__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_standard_scaler",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_standard_scaler__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_minmax_scaler",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_minmax_scaler__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_minmax_scaler",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_minmax_scaler__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_robust_scaler",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_robust_scaler__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_robust_scaler",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_robust_scaler__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_quantile_transformer",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_quantile_transformer__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_quantile_transformer",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_quantile_transformer__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_simple_imputer_mean",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_simple_imputer_mean__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_simple_imputer_mean",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_simple_imputer_mean__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_simple_imputer_median",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_simple_imputer_median__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_simple_imputer_median",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_simple_imputer_median__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_knn_imputer",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_knn_imputer__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_knn_imputer",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_knn_imputer__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_iterative_imputer",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_iterative_imputer__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_iterative_imputer",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_iterative_imputer__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_pca",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_pca__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_pca",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_pca__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_kbins",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_kbins__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_kbins",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_kbins__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_onehot",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__sk_onehot__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_onehot",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__sk_onehot__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_selectkbest",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__sk_selectkbest__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_selectkbest",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__sk_selectkbest__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_target_encoder",
+  "library": "scikit-learn",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__sk_target_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "sk_target_encoder",
+  "library": "scikit-learn",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__sk_target_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_target_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__ce_target_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_target_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__ce_target_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_loo_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__ce_loo_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_loo_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__ce_loo_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_catboost_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__ce_catboost_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_catboost_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__ce_catboost_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_james_stein_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__ce_james_stein_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_james_stein_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__ce_james_stein_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_m_estimate_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__ce_m_estimate_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_m_estimate_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__ce_m_estimate_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_woe_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": true,
+  "expected_admissible": false,
+  "path": "library/K__ce_woe_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_woe_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": true,
+  "expected_admissible": true,
+  "path": "library/K__ce_woe_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_count_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__ce_count_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_count_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__ce_count_encoder__B.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_ordinal_encoder",
+  "library": "category_encoders",
+  "pattern": "A",
+  "uses_labels": false,
+  "expected_admissible": false,
+  "path": "library/K__ce_ordinal_encoder__A.py"
+ },
+ {
+  "kind": "tabular",
+  "case": "ce_ordinal_encoder",
+  "library": "category_encoders",
+  "pattern": "B",
+  "uses_labels": false,
+  "expected_admissible": true,
+  "path": "library/K__ce_ordinal_encoder__B.py"
+ }
+]

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Replication package: Black-Box Testing of Machine-Learning Feature Pipelines for Information Leakage"
+authors:
+  - family-names: Almuwallad
+    given-names: Mansour
+    orcid: "https://orcid.org/0009-0002-9547-0621"
+    affiliation: "Yanbu Industrial College, Royal Commission for Jubail and Yanbu"
+version: "1.0.0"
+date-released: "2026-10-12"
+license: MIT
+type: software

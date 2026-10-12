@@ -1,0 +1,16 @@
+# Main environment (PAT, corpora, shift check, analysis) -- versions used in the study
+# Python 3.13 (study used 3.13.16)
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+statsmodels==0.15.0
+lightgbm==4.7.0
+category_encoders==2.11.1
+feature_engine==1.9.4
+matplotlib==3.11.2
+pytest
+# Deepchecks baseline: separate environment (Python 3.11.17)
+#   deepchecks==0.19.1 pandas==2.1.4 numpy<2 scikit-learn==1.5.2 setuptools<70
+# Static analyser baseline: github.com/malusamayo/leakage-analysis, commit a7d038b,
+#   Python 3.8.20, Souffle 2.5, its customised pyright (submodule e3d7d9c), Node.js 22

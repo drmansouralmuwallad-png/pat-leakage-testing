@@ -1,0 +1,198 @@
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+M5 mlp CA_1|FOODS     base 0.1059  INV|T +0.016  INV|O -0.032  HP|O -0.227  HP|O* -0.112 (156s)
+M5 mlp CA_1|FOODS     base 0.1059  INV|T +0.016  INV|O -0.032  HP|O -0.227  HP|O* -0.112 (165s)
+M5 mlp CA_2|FOODS     base 0.2433  INV|T +0.126  INV|O -0.037  HP|O -0.345  HP|O* -0.273 (20s)
+M5 mlp CA_3|HOUSEHOLD base 0.2232  INV|T -0.187  INV|O -0.229  HP|O -0.325  HP|O* -0.280 (20s)
+M5 mlp CA_4|HOBBIES   base 0.3374  INV|T -0.144  INV|O -0.216  HP|O -0.317  HP|O* -0.297 (20s)
+M5 mlp TX_1|HOBBIES   base 0.3725  INV|T -0.135  INV|O -0.202  HP|O -0.255  HP|O* -0.160 (20s)
+M5 mlp TX_2|FOODS     base 0.2717  INV|T -0.316  INV|O -0.389  HP|O -0.539  HP|O* -0.520 (20s)
+M5 mlp TX_3|FOODS     base 0.2850  INV|T -0.328  INV|O -0.278  HP|O -0.428  HP|O* -0.211 (20s)
+M5 mlp TX_3|HOUSEHOLD base 0.3286  INV|T -0.242  INV|O -0.129  HP|O -0.415  HP|O* -0.347 (21s)
+M5 mlp WI_1|FOODS     base 0.3538  INV|T -0.001  INV|O -0.045  HP|O -0.416  HP|O* -0.384 (24s)
+M5 mlp WI_1|HOBBIES   base 0.3387  INV|T -0.360  INV|O -0.316  HP|O -0.478  HP|O* -0.450 (20s)
+M5 mlp WI_1|HOUSEHOLD base 0.2843  INV|T +0.038  INV|O -0.227  HP|O -0.251  HP|O* -0.261 (21s)
+M5 mlp WI_2|FOODS     base 0.5531  INV|T -0.217  INV|O -0.195  HP|O -0.414  HP|O* -0.267 (21s)
+M5 mlp WI_2|HOBBIES   base 0.3523  INV|T +0.072  INV|O +0.030  HP|O -0.321  HP|O* -0.295 (20s)
+M5 mlp WI_2|HOUSEHOLD base 0.4711  INV|T -0.185  INV|O -0.196  HP|O -0.326  HP|O* -0.218 (20s)
+M5 mlp WI_3|HOBBIES   base 0.3083  INV|T -0.022  INV|O -0.058  HP|O -0.225  HP|O* -0.174 (20s)
+M5 mlp WI_3|HOUSEHOLD base 0.2727  INV|T +0.025  INV|O +0.005  HP|O -0.304  HP|O* -0.271 (20s)
+DONE M5 mlp
+M4D mlp D859           base 0.0672  INV|T +0.855  INV|O +1.021  HP|O +0.441  HP|O* +0.557 (15s)
+M4D mlp D1186          base 0.0528  INV|T +1.668  INV|O +1.952  HP|O +1.384  HP|O* +1.359 (15s)
+M4D mlp D1325          base 0.0482  INV|T +1.038  INV|O +1.470  HP|O +0.684  HP|O* +0.862 (15s)
+M4D mlp D1394          base 0.0470  INV|T +1.477  INV|O +1.432  HP|O +1.226  HP|O* +1.215 (15s)
+M4D mlp D1406          base 0.0463  INV|T +1.801  INV|O +1.496  HP|O +1.573  HP|O* +1.838 (15s)
+M4D mlp D2572          base 0.0419  INV|T +0.948  INV|O +0.960  HP|O +0.680  HP|O* +0.818 (15s)
+M4D mlp D2672          base 0.0583  INV|T +2.978  INV|O +3.871  HP|O +2.375  HP|O* +2.287 (15s)
+M4D mlp D2890          base 0.1287  INV|T +0.737  INV|O +0.941  HP|O +0.450  HP|O* +0.384 (15s)
+M4D mlp D3037          base 0.1003  INV|T +1.872  INV|O +2.025  HP|O +0.434  HP|O* +0.399 (15s)
+M4D mlp D3139          base 0.0442  INV|T +0.715  INV|O +0.709  HP|O +0.788  HP|O* +0.798 (14s)
+M4D mlp D3145          base 0.0461  INV|T +2.227  INV|O +1.976  HP|O +1.357  HP|O* +1.352 (15s)
+M4D mlp D3212          base 0.0511  INV|T +0.577  INV|O +0.752  HP|O +0.850  HP|O* +0.741 (15s)
+M4D mlp D3325          base 0.0854  INV|T +0.804  INV|O +1.219  HP|O +0.662  HP|O* +0.720 (15s)
+M4D mlp D3372          base 0.0621  INV|T +2.372  INV|O +2.240  HP|O +0.934  HP|O* +0.906 (15s)
+M4D mlp D3485          base 0.0874  INV|T +1.250  INV|O +1.125  HP|O +0.528  HP|O* +0.506 (15s)
+DONE M4D mlp
+M4H mlp H192           base 0.2224  INV|T -0.184  INV|O +0.922  HP|O -0.680  HP|O* -0.637 (11s)
+M4H mlp H252           base 0.0712  INV|T +1.737  INV|O +1.441  HP|O +0.228  HP|O* +0.275 (10s)
+M4H mlp H255           base 0.2034  INV|T -0.084  INV|O +0.108  HP|O -0.131  HP|O* -0.083 (10s)
+M4H mlp H261           base 0.1643  INV|T +0.005  INV|O +0.589  HP|O -0.124  HP|O* -0.122 (10s)
+M4H mlp H267           base 0.1463  INV|T -0.086  INV|O +0.079  HP|O -0.128  HP|O* -0.175 (10s)
+M4H mlp H280           base 0.1446  INV|T +0.121  INV|O +1.970  HP|O -0.428  HP|O* -0.257 (10s)
+M4H mlp H293           base 0.0858  INV|T +0.764  INV|O +5.606  HP|O -0.241  HP|O* -0.405 (10s)
+M4H mlp H330           base 0.4159  INV|T -0.254  INV|O -0.151  HP|O -0.057  HP|O* -0.088 (11s)
+M4H mlp H343           base 0.6269  INV|T +0.004  INV|O +0.013  HP|O +0.002  HP|O* +0.053 (10s)
+M4H mlp H360           base 0.4912  INV|T +0.024  INV|O +0.014  HP|O +0.092  HP|O* +0.122 (10s)
+M4H mlp H363           base 0.3816  INV|T +0.207  INV|O +0.095  HP|O +0.070  HP|O* +0.107 (10s)
+M4H mlp H379           base 0.3770  INV|T +0.139  INV|O +0.144  HP|O -0.134  HP|O* -0.161 (10s)
+M4H mlp H388           base 0.3776  INV|T +0.268  INV|O +0.232  HP|O -0.022  HP|O* +0.020 (10s)
+M4H mlp H395           base 0.5998  INV|T +0.516  INV|O +0.431  HP|O -0.030  HP|O* +0.005 (10s)
+M4H mlp H409           base 0.5296  INV|T +0.052  INV|O +0.097  HP|O -0.046  HP|O* -0.020 (10s)
+DONE M4H mlp
+ELEC mlp MT_032         base 0.2186  INV|T +0.402  INV|O +0.692  HP|O +0.110  HP|O* +0.083 (10s)
+ELEC mlp MT_082         base 0.8082  INV|T -0.244  INV|O -0.098  HP|O -0.371  HP|O* -0.264 (10s)
+ELEC mlp MT_112         base 0.4161  INV|T +0.139  INV|O +0.077  HP|O -0.181  HP|O* -0.239 (10s)
+ELEC mlp MT_131         base 0.8582  INV|T -0.027  INV|O +0.126  HP|O -0.043  HP|O* -0.096 (10s)
+ELEC mlp MT_137         base 0.2590  INV|T +0.038  INV|O -0.030  HP|O +0.257  HP|O* -0.054 (10s)
+ELEC mlp MT_171         base 0.6064  INV|T -0.473  INV|O -0.572  HP|O +0.125  HP|O* -0.316 (10s)
+ELEC mlp MT_187         base 0.4732  INV|T -0.260  INV|O -0.245  HP|O +0.408  HP|O* -0.451 (10s)
+ELEC mlp MT_227         base 0.4055  INV|T -0.135  INV|O +0.507  HP|O +0.615  HP|O* -0.168 (10s)
+ELEC mlp MT_258         base 0.3866  INV|T +0.005  INV|O -0.183  HP|O +0.727  HP|O* -0.055 (10s)
+ELEC mlp MT_266         base 0.3485  INV|T +0.079  INV|O +0.034  HP|O +1.297  HP|O* +0.571 (10s)
+ELEC mlp MT_267         base 0.3612  INV|T +0.246  INV|O +0.175  HP|O -0.043  HP|O* -0.016 (10s)
+ELEC mlp MT_295         base 0.4906  INV|T +0.008  INV|O -0.047  HP|O -0.074  HP|O* +0.109 (10s)
+ELEC mlp MT_304         base 0.5439  INV|T -0.116  INV|O -0.067  HP|O +0.046  HP|O* -0.032 (10s)
+ELEC mlp MT_308         base 0.5845  INV|T +0.077  INV|O -0.103  HP|O +0.721  HP|O* -0.201 (10s)
+ELEC mlp MT_312         base 0.3595  INV|T +0.025  INV|O +0.069  HP|O +0.652  HP|O* +0.076 (10s)
+DONE ELEC mlp

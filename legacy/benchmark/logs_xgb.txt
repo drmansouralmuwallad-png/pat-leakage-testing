@@ -1,0 +1,260 @@
+M5 xgb CA_1|FOODS     base 0.0854  INV|T +0.144  INV|O -0.055  HP|O -0.185  HP|O* -0.041 (18s)
+M5 xgb CA_1|HOBBIES   base 0.2068  INV|T +0.019  INV|O -0.007  HP|O -0.099  HP|O* -0.025 (19s)
+M5 xgb CA_1|HOUSEHOLD base 0.1112  INV|T +0.012  INV|O -0.004  HP|O -0.089  HP|O* +0.009 (18s)
+M5 xgb CA_2|FOODS     base 0.1767  INV|T -0.025  INV|O -0.047  HP|O -0.171  HP|O* +0.320 (18s)
+M5 xgb CA_2|HOBBIES   base 0.1932  INV|T +0.097  INV|O +0.073  HP|O -0.086  HP|O* -0.054 (18s)
+M5 xgb CA_2|HOUSEHOLD base 0.1402  INV|T +0.080  INV|O +0.064  HP|O -0.062  HP|O* +0.029 (18s)
+M5 xgb CA_3|FOODS     base 0.0720  INV|T +0.126  INV|O +0.066  HP|O -0.033  HP|O* -0.065 (19s)
+M5 xgb CA_3|HOBBIES   base 0.1417  INV|T -0.077  INV|O -0.009  HP|O -0.077  HP|O* -0.029 (19s)
+M5 xgb CA_3|HOUSEHOLD base 0.1010  INV|T +0.060  INV|O +0.036  HP|O -0.099  HP|O* -0.041 (21s)
+M5 xgb CA_4|FOODS     base 0.1040  INV|T +0.161  INV|O +0.062  HP|O -0.231  HP|O* +0.002 (19s)
+M5 xgb CA_4|HOBBIES   base 0.2148  INV|T -0.033  INV|O +0.013  HP|O -0.006  HP|O* +0.013 (17s)
+M5 xgb CA_4|HOUSEHOLD base 0.1752  INV|T +0.077  INV|O +0.069  HP|O +0.013  HP|O* +0.052 (18s)
+M5 xgb TX_1|FOODS     base 0.1080  INV|T -0.143  INV|O +0.042  HP|O -0.100  HP|O* +0.021 (18s)
+M5 xgb TX_1|HOBBIES   base 0.2449  INV|T +0.021  INV|O +0.026  HP|O -0.058  HP|O* -0.020 (18s)
+M5 xgb TX_1|HOUSEHOLD base 0.1394  INV|T +0.032  INV|O +0.030  HP|O -0.102  HP|O* +0.005 (19s)
+M5 xgb TX_2|FOODS     base 0.0891  INV|T +0.020  INV|O -0.007  HP|O -0.003  HP|O* +0.014 (18s)
+M5 xgb TX_2|HOBBIES   base 0.1763  INV|T -0.065  INV|O +0.028  HP|O -0.023  HP|O* +0.060 (19s)
+M5 xgb TX_2|HOUSEHOLD base 0.1266  INV|T +0.009  INV|O -0.012  HP|O -0.071  HP|O* -0.000 (19s)
+M5 xgb TX_3|FOODS     base 0.1385  INV|T -0.002  INV|O -0.012  HP|O -0.016  HP|O* +0.050 (19s)
+M5 xgb TX_3|HOBBIES   base 0.2064  INV|T +0.069  INV|O +0.025  HP|O -0.028  HP|O* -0.029 (19s)
+M5 xgb TX_3|HOUSEHOLD base 0.1572  INV|T -0.024  INV|O -0.004  HP|O -0.137  HP|O* -0.017 (20s)
+M5 xgb WI_1|FOODS     base 0.1773  INV|T +0.155  INV|O +0.000  HP|O -0.199  HP|O* -0.043 (19s)
+M5 xgb WI_1|HOBBIES   base 0.1792  INV|T +0.033  INV|O +0.004  HP|O -0.082  HP|O* -0.056 (19s)
+M5 xgb WI_1|HOUSEHOLD base 0.1845  INV|T +0.060  INV|O -0.065  HP|O -0.133  HP|O* -0.055 (20s)
+M5 xgb WI_2|FOODS     base 0.2881  INV|T +0.074  INV|O -0.018  HP|O -0.007  HP|O* +0.005 (20s)
+M5 xgb WI_2|HOBBIES   base 0.2538  INV|T -0.033  INV|O -0.015  HP|O -0.113  HP|O* -0.027 (19s)
+M5 xgb WI_2|HOUSEHOLD base 0.3151  INV|T -0.030  INV|O -0.008  HP|O -0.200  HP|O* +0.009 (20s)
+M5 xgb WI_3|FOODS     base 0.1487  INV|T +0.022  INV|O +0.027  HP|O -0.115  HP|O* -0.017 (21s)
+M5 xgb WI_3|HOBBIES   base 0.2441  INV|T +0.025  INV|O -0.025  HP|O -0.012  HP|O* -0.011 (19s)
+M5 xgb WI_3|HOUSEHOLD base 0.1745  INV|T +0.013  INV|O -0.001  HP|O -0.119  HP|O* -0.012 (19s)
+DONE M5 xgb
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+combos ['M5|ridge', 'M5|lgbm', 'M5|xgb', 'M4D|ridge', 'M4D|lgbm', 'M4H|ridge', 'M4H|lgbm', 'ELEC|ridge', 'ELEC|lgbm']
+base vs snaive {'M5|ridge': -13.3, 'M5|lgbm': -23.1, 'M5|xgb': -21.1, 'M4D|ridge': -13.7, 'M4D|lgbm': 13.1, 'M4H|ridge': -34.1, 'M4H|lgbm': -22.5, 'ELEC|ridge': -15.8, 'ELEC|lgbm': -16.6}
+admissible n 54 range -4.3 11.1
+adm supports [('M5|ridge', 'SES|O', -2.9), ('M5|ridge', 'NV|O', -2.2), ('M4H|ridge', 'HP|O*', -1.3), ('M4H|lgbm', 'ROLL|O', -4.3), ('ELEC|lgbm', 'INV|O', -2.9), ('ELEC|lgbm', 'CMA|O*', -1.6), ('ELEC|lgbm', 'HP|O*', -1.0)]
+adm worse [('M5|lgbm', 'ROLL|O', 3.2), ('M4H|lgbm', 'INV|O', 11.1), ('M4H|lgbm', 'HP|O*', 2.2)]
+SES|T range -100.0 -69.3 {'M5|ridge': -100.0, 'M5|lgbm': -85.7, 'M5|xgb': -87.1, 'M4D|ridge': -99.9, 'M4D|lgbm': -84.8, 'M4H|ridge': -99.0, 'M4H|lgbm': -69.3, 'ELEC|ridge': -99.9, 'ELEC|lgbm': -85.8}
+ROLL|T range -53.1 -12.8 {'M5|ridge': -13.2, 'M5|lgbm': -18.5, 'M5|xgb': -16.2, 'M4D|ridge': -53.1, 'M4D|lgbm': -48.6, 'M4H|ridge': -26.5, 'M4H|lgbm': -12.8, 'ELEC|ridge': -21.0, 'ELEC|lgbm': -13.5}
+NV|T range -32.9 -18.1 {'M5|ridge': -32.9, 'M5|lgbm': -29.0, 'M5|xgb': -23.7, 'M4D|ridge': -25.1, 'M4D|lgbm': -28.8, 'M4H|ridge': -18.1, 'M4H|lgbm': -21.3, 'ELEC|ridge': -24.6, 'ELEC|lgbm': -21.4}
+INV|T range -3.3 45.9 {'M5|ridge': 0.4, 'M5|lgbm': 3.4, 'M5|xgb': 4.5, 'M4D|ridge': 1.6, 'M4D|lgbm': -2.0, 'M4H|ridge': -0.2, 'M4H|lgbm': 45.9, 'ELEC|ridge': -0.4, 'ELEC|lgbm': -3.3}
+CMA|T range -71.7 67.2 {'M5|ridge': -19.4, 'M5|lgbm': -16.9, 'M5|xgb': -22.6, 'M4D|ridge': -71.7, 'M4D|lgbm': -66.0, 'M4H|ridge': 67.2, 'M4H|lgbm': -13.5, 'ELEC|ridge': -36.6, 'ELEC|lgbm': -22.1}
+HP|T range -45.8 51.9 {'M5|ridge': -10.5, 'M5|lgbm': -6.3, 'M5|xgb': -8.1, 'M4D|ridge': -45.8, 'M4D|lgbm': -38.1, 'M4H|ridge': 51.9, 'M4H|lgbm': -13.0, 'ELEC|ridge': -35.6, 'ELEC|lgbm': -22.7}
+CMA|O range -22.5 -0.7 {'M5|ridge': -4.6, 'M5|lgbm': -4.9, 'M5|xgb': -4.7, 'M4D|ridge': -22.5, 'M4D|lgbm': -8.0, 'M4H|ridge': -12.0, 'M4H|lgbm': -0.7, 'ELEC|ridge': -2.7, 'ELEC|lgbm': -3.2}
+HP|O range -41.1 -3.2 {'M5|ridge': -10.0, 'M5|lgbm': -8.9, 'M5|xgb': -10.2, 'M4D|ridge': -41.1, 'M4D|lgbm': -26.7, 'M4H|ridge': -9.9, 'M4H|lgbm': -3.2, 'ELEC|ridge': -4.5, 'ELEC|lgbm': -4.1}
+CMA|O* range -1.6 1.4 {'M5|ridge': -0.0, 'M5|lgbm': 0.3, 'M5|xgb': -1.4, 'M4D|ridge': -0.0, 'M4D|lgbm': -1.0, 'M4H|ridge': 0.0, 'M4H|lgbm': 1.4, 'ELEC|ridge': -0.0, 'ELEC|lgbm': -1.6}
+HP|O* range -1.3 2.2 {'M5|ridge': -0.5, 'M5|lgbm': -0.3, 'M5|xgb': 1.2, 'M4D|ridge': 0.5, 'M4D|lgbm': -0.1, 'M4H|ridge': -1.3, 'M4H|lgbm': 2.2, 'ELEC|ridge': -0.1, 'ELEC|lgbm': -1.0}
+flips n 48 support 39 false 35 inflated 4
+inflated [('M5', 'ridge', 'SES', 'T', -100.0, -2.9), ('M5', 'ridge', 'NV', 'T', -32.9, -2.2), ('M4H', 'ridge', 'HP', 'O', -9.9, -1.3), ('M4H', 'lgbm', 'ROLL', 'T', -12.8, -4.3)]
+nonsupport [('M5', 'ridge', 'INV', 'T', 0.4), ('M5', 'lgbm', 'INV', 'T', 3.4), ('M4D', 'ridge', 'INV', 'T', 1.6), ('M4D', 'lgbm', 'INV', 'T', -2.0), ('M4H', 'ridge', 'INV', 'T', -0.2), ('M4H', 'ridge', 'CMA', 'T', 67.2), ('M4H', 'ridge', 'HP', 'T', 51.9), ('M4H', 'lgbm', 'INV', 'T', 45.9), ('M4H', 'lgbm', 'CMA', 'O', -0.7)]
+Traceback (most recent call last):
+  File "/home/claude/bench/run_bench.py", line 7, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__init__.py", line 112, in <module>
+    from numpy.__config__ import show_config
+  File "/usr/local/lib/python3.12/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/__init__.py", line 107, in <module>
+    from . import numerictypes as nt
+  File "/usr/local/lib/python3.12/dist-packages/numpy/_core/numerictypes.py", line 79, in <module>
+    import numbers
+  File "/home/claude/bench/numbers.py", line 18, in <module>
+    print('by learner', H['by_learner'])
+                        ~^^^^^^^^^^^^^^
+KeyError: 'by_learner'
+DONE M5 xgb
+M4D xgb D489           base 0.0507  INV|T -0.068  INV|O -0.087  HP|O -0.450  HP|O* -0.030 (20s)
+M4D xgb D673           base 0.0257  INV|T +0.141  INV|O +0.054  HP|O -0.202  HP|O* -0.003 (20s)
+M4D xgb D718           base 0.0480  INV|T -0.055  INV|O -0.077  HP|O -0.210  HP|O* -0.020 (20s)
+M4D xgb D765           base 0.0493  INV|T -0.002  INV|O -0.040  HP|O -0.022  HP|O* -0.005 (19s)
+M4D xgb D833           base 0.4330  INV|T -0.012  INV|O +0.000  HP|O -0.356  HP|O* +0.000 (18s)
+M4D xgb D859           base 0.0541  INV|T +0.023  INV|O +0.027  HP|O -0.340  HP|O* +0.083 (19s)
+M4D xgb D877           base 0.0754  INV|T +0.034  INV|O -0.120  HP|O -0.304  HP|O* +0.009 (19s)
+M4D xgb D903           base 0.0514  INV|T -0.152  INV|O +0.014  HP|O -0.273  HP|O* -0.068 (19s)
+M4D xgb D905           base 0.0401  INV|T -0.061  INV|O -0.006  HP|O -0.586  HP|O* +0.016 (19s)
+M4D xgb D1042          base 0.0404  INV|T +0.050  INV|O +0.095  HP|O -0.331  HP|O* -0.147 (20s)
+M4D xgb D1178          base 0.0241  INV|T +0.034  INV|O +0.024  HP|O -0.003  HP|O* +0.102 (18s)
+M4D xgb D1186          base 0.0330  INV|T -0.008  INV|O +0.011  HP|O -0.110  HP|O* -0.013 (18s)
+M4D xgb D1223          base 0.0350  INV|T -0.021  INV|O +0.012  HP|O -0.188  HP|O* +0.010 (17s)
+M4D xgb D1325          base 0.0358  INV|T -0.019  INV|O +0.045  HP|O -0.306  HP|O* +0.096 (18s)
+M4D xgb D1371          base 0.0769  INV|T -0.017  INV|O -0.026  HP|O -0.156  HP|O* +0.005 (18s)
+M4D xgb D1394          base 0.0277  INV|T -0.014  INV|O -0.032  HP|O -0.140  HP|O* -0.005 (17s)
+M4D xgb D1406          base 0.0251  INV|T -0.038  INV|O -0.024  HP|O -0.258  HP|O* +0.071 (17s)
+M4D xgb D1601          base 0.0347  INV|T -0.046  INV|O +0.052  HP|O -0.387  HP|O* -0.011 (17s)
+M4D xgb D2026          base 0.1050  INV|T -0.061  INV|O -0.012  HP|O -0.025  HP|O* +0.032 (17s)
+M4D xgb D2030          base 0.0368  INV|T -0.067  INV|O +0.007  HP|O -0.514  HP|O* -0.120 (18s)
+M4D xgb D2343          base 0.0299  INV|T +0.040  INV|O +0.126  HP|O -0.239  HP|O* -0.049 (18s)
+M4D xgb D2572          base 0.0342  INV|T -0.028  INV|O -0.027  HP|O -0.343  HP|O* +0.018 (18s)
+M4D xgb D2660          base 0.0308  INV|T +0.047  INV|O -0.084  HP|O -0.243  HP|O* +0.099 (17s)
+M4D xgb D2665          base 0.0361  INV|T -0.035  INV|O -0.006  HP|O -0.108  HP|O* +0.013 (17s)
+M4D xgb D2672          base 0.0522  INV|T -0.045  INV|O +0.007  HP|O -0.157  HP|O* +0.006 (18s)
+M4D xgb D2689          base 0.0154  INV|T -0.057  INV|O -0.077  HP|O -0.206  HP|O* -0.063 (17s)
+M4D xgb D2700          base 0.0557  INV|T -0.021  INV|O -0.053  HP|O -0.036  HP|O* -0.054 (18s)
+M4D xgb D2717          base 0.0301  INV|T -0.033  INV|O +0.015  HP|O -0.484  HP|O* -0.023 (17s)
+M4D xgb D2826          base 0.0494  INV|T -0.016  INV|O +0.014  HP|O -0.013  HP|O* +0.002 (18s)
+M4D xgb D2868          base 0.0519  INV|T -0.140  INV|O -0.166  HP|O -0.612  HP|O* -0.394 (18s)
+M4D xgb D2890          base 0.0524  INV|T -0.027  INV|O -0.012  HP|O -0.156  HP|O* +0.021 (17s)
+M4D xgb D2955          base 0.0232  INV|T +0.107  INV|O +0.063  HP|O -0.077  HP|O* +0.019 (17s)
+M4D xgb D3037          base 0.0578  INV|T -0.009  INV|O -0.064  HP|O -0.009  HP|O* -0.114 (18s)
+M4D xgb D3139          base 0.0383  INV|T +0.007  INV|O +0.017  HP|O -0.064  HP|O* -0.023 (17s)
+M4D xgb D3145          base 0.0310  INV|T +0.043  INV|O +0.018  HP|O -0.339  HP|O* -0.009 (18s)
+M4D xgb D3180          base 0.1040  INV|T +0.332  INV|O +0.295  HP|O -0.726  HP|O* -0.075 (16s)
+M4D xgb D3212          base 0.0253  INV|T -0.065  INV|O +0.009  HP|O -0.316  HP|O* +0.088 (18s)
+M4D xgb D3325          base 0.0456  INV|T -0.007  INV|O -0.017  HP|O -0.391  HP|O* -0.073 (19s)
+M4D xgb D3372          base 0.0280  INV|T -0.048  INV|O +0.038  HP|O -0.371  HP|O* +0.252 (18s)
+M4D xgb D3485          base 0.0506  INV|T +0.016  INV|O -0.009  HP|O -0.226  HP|O* -0.018 (18s)
+DONE M4D xgb
+DONE M5 xgb
+DONE M4D xgb
+M4H xgb H170           base 0.0148  INV|T +0.083  INV|O -0.026  HP|O -0.031  HP|O* +0.023 (25s)
+M4H xgb H177           base 0.0139  INV|T +0.158  INV|O +0.056  HP|O -0.128  HP|O* -0.066 (24s)
+M4H xgb H178           base 0.0079  INV|T +0.367  INV|O -0.028  HP|O -0.081  HP|O* +0.001 (25s)
+M4H xgb H179           base 0.0125  INV|T +0.213  INV|O -0.074  HP|O -0.158  HP|O* -0.050 (26s)
+M4H xgb H186           base 0.0162  INV|T +0.061  INV|O -0.000  HP|O -0.046  HP|O* +0.055 (23s)
+M4H xgb H192           base 0.0130  INV|T +0.281  INV|O -0.036  HP|O -0.119  HP|O* -0.019 (23s)
+M4H xgb H204           base 0.0119  INV|T +0.341  INV|O +0.012  HP|O -0.159  HP|O* -0.074 (25s)
+M4H xgb H211           base 0.0091  INV|T +0.072  INV|O -0.042  HP|O -0.206  HP|O* -0.055 (25s)
+M4H xgb H219           base 0.0088  INV|T +0.620  INV|O -0.003  HP|O -0.242  HP|O* -0.017 (22s)
+M4H xgb H225           base 0.0122  INV|T +0.247  INV|O -0.021  HP|O -0.151  HP|O* -0.070 (26s)
+M4H xgb H235           base 0.0128  INV|T +0.173  INV|O -0.083  HP|O -0.245  HP|O* -0.157 (23s)
+M4H xgb H252           base 0.0205  INV|T -0.014  INV|O -0.008  HP|O -0.081  HP|O* -0.009 (25s)
+M4H xgb H254           base 0.0166  INV|T +0.187  INV|O -0.028  HP|O -0.054  HP|O* -0.018 (19s)
+M4H xgb H255           base 0.1028  INV|T +0.209  INV|O -0.029  HP|O +0.058  HP|O* -0.046 (26s)
+M4H xgb H256           base 0.0140  INV|T -0.032  INV|O -0.014  HP|O -0.001  HP|O* -0.019 (21s)
+M4H xgb H261           base 0.0970  INV|T -0.007  INV|O -0.025  HP|O -0.127  HP|O* -0.003 (27s)
+M4H xgb H267           base 0.0951  INV|T -0.037  INV|O -0.003  HP|O +0.086  HP|O* +0.015 (23s)
+M4H xgb H270           base 0.0165  INV|T +0.165  INV|O +0.060  HP|O -0.079  HP|O* -0.105 (24s)
+M4H xgb H272           base 0.1430  INV|T +0.004  INV|O -0.018  HP|O +0.071  HP|O* +0.046 (23s)
+M4H xgb H273           base 0.0160  INV|T +0.299  INV|O +0.102  HP|O -0.171  HP|O* -0.117 (25s)
+M4H xgb H277           base 0.0114  INV|T +0.159  INV|O -0.020  HP|O -0.232  HP|O* +0.013 (24s)
+M4H xgb H280           base 0.0093  INV|T +0.232  INV|O -0.048  HP|O -0.114  HP|O* -0.023 (22s)
+M4H xgb H285           base 0.0136  INV|T +0.473  INV|O -0.042  HP|O -0.176  HP|O* -0.023 (27s)
+M4H xgb H287           base 0.0116  INV|T +0.117  INV|O +0.016  HP|O +0.146  HP|O* +0.027 (21s)
+M4H xgb H293           base 0.0119  INV|T +0.445  INV|O -0.055  HP|O -0.177  HP|O* -0.076 (24s)
+M4H xgb H297           base 0.0163  INV|T +0.205  INV|O -0.025  HP|O -0.164  HP|O* -0.096 (25s)
+M4H xgb H308           base 0.0134  INV|T +0.195  INV|O +0.005  HP|O -0.056  HP|O* -0.060 (25s)
+M4H xgb H311           base 0.0142  INV|T +0.080  INV|O -0.004  HP|O -0.057  HP|O* -0.011 (23s)
+M4H xgb H314           base 0.0059  INV|T +0.586  INV|O +0.019  HP|O -0.157  HP|O* -0.000 (28s)
+M4H xgb H319           base 0.0145  INV|T +0.281  INV|O -0.049  HP|O -0.357  HP|O* -0.171 (26s)
+M4H xgb H330           base 0.2457  INV|T +0.107  INV|O +0.003  HP|O -0.027  HP|O* -0.030 (20s)
+M4H xgb H333           base 0.3944  INV|T -0.050  INV|O -0.064  HP|O -0.080  HP|O* +0.088 (32s)
+M4H xgb H343           base 0.5694  INV|T -0.025  INV|O +0.007  HP|O -0.064  HP|O* -0.003 (21s)
+M4H xgb H360           base 0.4811  INV|T -0.093  INV|O -0.101  HP|O -0.134  HP|O* -0.065 (22s)
+M4H xgb H363           base 0.2680  INV|T -0.158  INV|O -0.103  HP|O +0.015  HP|O* +0.018 (31s)
+M4H xgb H371           base 0.3923  INV|T -0.086  INV|O -0.036  HP|O -0.113  HP|O* -0.018 (21s)
+M4H xgb H379           base 0.2415  INV|T +0.175  INV|O +0.053  HP|O -0.006  HP|O* +0.046 (20s)
+M4H xgb H388           base 0.3559  INV|T -0.042  INV|O +0.017  HP|O -0.040  HP|O* -0.023 (26s)
+M4H xgb H395           base 0.4052  INV|T -0.001  INV|O -0.021  HP|O -0.094  HP|O* +0.043 (26s)
+M4H xgb H409           base 0.4213  INV|T -0.074  INV|O -0.196  HP|O -0.072  HP|O* -0.025 (24s)
+DONE M4H xgb
+ELEC xgb MT_004         base 0.1647  INV|T +0.045  INV|O -0.004  HP|O +0.054  HP|O* +0.006 (29s)
+ELEC xgb MT_005         base 0.1219  INV|T +0.127  INV|O +0.003  HP|O -0.061  HP|O* +0.008 (28s)
+ELEC xgb MT_010         base 0.2177  INV|T +0.004  INV|O -0.008  HP|O -0.118  HP|O* +0.014 (28s)
+ELEC xgb MT_024         base 0.1434  INV|T +0.045  INV|O +0.016  HP|O -0.032  HP|O* +0.019 (23s)
+ELEC xgb MT_027         base 0.1706  INV|T +0.039  INV|O -0.008  HP|O -0.044  HP|O* -0.023 (30s)
+ELEC xgb MT_032         base 0.1754  INV|T +0.010  INV|O +0.019  HP|O -0.014  HP|O* +0.029 (31s)
+ELEC xgb MT_035         base 0.1640  INV|T -0.055  INV|O -0.010  HP|O -0.106  HP|O* -0.009 (29s)
+ELEC xgb MT_040         base 0.1748  INV|T +0.005  INV|O -0.011  HP|O -0.072  HP|O* -0.035 (20s)
+ELEC xgb MT_057         base 0.1563  INV|T +0.084  INV|O +0.028  HP|O +0.013  HP|O* -0.001 (28s)
+ELEC xgb MT_065         base 0.1116  INV|T +0.013  INV|O -0.007  HP|O +0.005  HP|O* +0.001 (25s)
+ELEC xgb MT_076         base 0.2577  INV|T -0.075  INV|O -0.007  HP|O +0.064  HP|O* -0.008 (32s)
+ELEC xgb MT_082         base 0.6233  INV|T +0.242  INV|O +0.105  HP|O -0.448  HP|O* +0.008 (29s)
+ELEC xgb MT_101         base 0.4693  INV|T -0.002  INV|O -0.000  HP|O +0.000  HP|O* -0.010 (32s)
+ELEC xgb MT_112         base 0.2723  INV|T -0.124  INV|O +0.006  HP|O -0.027  HP|O* -0.030 (30s)
+ELEC xgb MT_126         base 0.0621  INV|T -0.040  INV|O +0.011  HP|O -0.030  HP|O* +0.054 (18s)
+ELEC xgb MT_131         base 0.7297  INV|T -0.186  INV|O -0.044  HP|O -0.040  HP|O* +0.044 (26s)
+ELEC xgb MT_137         base 0.2057  INV|T +0.009  INV|O -0.033  HP|O +0.062  HP|O* -0.011 (30s)
+ELEC xgb MT_145         base 0.2342  INV|T -0.009  INV|O +0.006  HP|O -0.005  HP|O* +0.005 (23s)
+ELEC xgb MT_160         base 0.2640  INV|T -0.037  INV|O +0.039  HP|O +0.002  HP|O* +0.007 (33s)
+ELEC xgb MT_161         base 0.3491  INV|T -0.050  INV|O +0.010  HP|O +0.001  HP|O* +0.075 (27s)
+ELEC xgb MT_166         base 0.3755  INV|T -0.049  INV|O -0.005  HP|O -0.024  HP|O* -0.018 (31s)
+ELEC xgb MT_171         base 0.3158  INV|T -0.014  INV|O +0.001  HP|O -0.018  HP|O* -0.001 (29s)
+ELEC xgb MT_179         base 0.2650  INV|T +0.003  INV|O +0.004  HP|O -0.007  HP|O* -0.028 (31s)
+ELEC xgb MT_184         base 0.1994  INV|T +0.042  INV|O +0.030  HP|O +0.022  HP|O* +0.005 (30s)
+ELEC xgb MT_187         base 0.2546  INV|T -0.055  INV|O +0.004  HP|O +0.016  HP|O* -0.006 (28s)
+ELEC xgb MT_194         base 0.3101  INV|T +0.043  INV|O +0.006  HP|O -0.008  HP|O* +0.000 (32s)
+ELEC xgb MT_202         base 0.3244  INV|T +0.047  INV|O +0.034  HP|O -0.013  HP|O* +0.013 (27s)
+ELEC xgb MT_213         base 0.3241  INV|T -0.007  INV|O +0.020  HP|O +0.085  HP|O* -0.002 (28s)
+ELEC xgb MT_217         base 0.1516  INV|T +0.075  INV|O -0.002  HP|O -0.013  HP|O* +0.008 (27s)
+ELEC xgb MT_223         base 0.2438  INV|T -0.018  INV|O -0.011  HP|O +0.049  HP|O* -0.021 (30s)
+ELEC xgb MT_227         base 0.2277  INV|T +0.029  INV|O +0.037  HP|O +0.007  HP|O* +0.025 (31s)
+ELEC xgb MT_229         base 0.2767  INV|T +0.026  INV|O +0.071  HP|O -0.017  HP|O* +0.011 (28s)
+ELEC xgb MT_258         base 0.3140  INV|T -0.065  INV|O +0.007  HP|O -0.090  HP|O* -0.004 (26s)
+ELEC xgb MT_266         base 0.2613  INV|T -0.023  INV|O -0.004  HP|O -0.040  HP|O* -0.043 (28s)
+ELEC xgb MT_267         base 0.3394  INV|T +0.070  INV|O +0.010  HP|O -0.041  HP|O* +0.031 (33s)
+ELEC xgb MT_269         base 0.2676  INV|T -0.024  INV|O +0.016  HP|O -0.032  HP|O* -0.008 (20s)
+ELEC xgb MT_295         base 0.4255  INV|T -0.004  INV|O +0.010  HP|O +0.074  HP|O* +0.011 (29s)
+ELEC xgb MT_304         base 0.5083  INV|T +0.061  INV|O -0.008  HP|O -0.013  HP|O* -0.000 (27s)
+ELEC xgb MT_308         base 0.3513  INV|T -0.024  INV|O -0.002  HP|O -0.029  HP|O* +0.029 (21s)
+ELEC xgb MT_312         base 0.3199  INV|T -0.008  INV|O +0.011  HP|O +0.079  HP|O* +0.031 (34s)
+DONE ELEC xgb
+DONE M5 xgb
+DONE M4D xgb
+DONE M4H xgb
+DONE ELEC xgb

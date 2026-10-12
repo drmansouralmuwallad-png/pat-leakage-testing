@@ -1,0 +1,256 @@
+
+== M5|ridge  n=30  base vs seasonal naive -13.3%
+INV|T     adm=0 eff    +0.4% [  -0.3,  +1.1] wins 11/30 p 0.198 holm 0.594 | shift   -0.3% p 0.665
+INV|O     adm=1 eff    +0.2% [  -0.3,  +0.7] wins 13/30 p 0.777 holm 1 | shift   +0.1% p 0.149
+SES|T     adm=0 eff  -100.0% [-100.0,-100.0] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift +236761.7% p 9.31e-10
+SES|O     adm=1 eff    -2.9% [  -4.1,  -1.7] wins 26/30 p 1.22e-05 holm 9.75e-05 | shift   -0.0% p 0.5
+NV|T      adm=0 eff   -32.9% [ -36.7, -29.2] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift  +38.8% p 9.31e-10
+NV|O      adm=1 eff    -2.2% [  -3.5,  -0.9] wins 22/30 p 0.00403 holm 0.0202 | shift   -0.7% p 0.988
+ROLL|T    adm=0 eff   -13.2% [ -15.0, -11.3] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift  +13.3% p 9.31e-10
+ROLL|O    adm=1 eff    +0.1% [  -0.2,  +0.5] wins 14/30 p 0.626 holm 1 | shift   -0.2% p 0.701
+CMA|T     adm=0 eff   -19.4% [ -22.1, -16.9] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift   +1.1% p 0.0225
+CMA|O     adm=0 eff    -4.6% [  -6.5,  -2.8] wins 25/30 p 2.08e-05 holm 0.000125 | shift   +1.9% p 0.000253
+CMA|O*    adm=1 eff    -0.0% [  -0.0,  -0.0] wins 24/30 p 1.6e-05 holm 0.000112 | shift   +0.0% p 0.00407
+HP|T      adm=0 eff   -10.5% [ -12.2,  -8.8] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift   -0.1% p 1
+HP|O      adm=0 eff   -10.0% [ -11.9,  -8.1] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift   +0.1% p 0.0104
+HP|O*     adm=1 eff    -0.5% [  -1.5,  +0.6] wins 19/30 p 0.0961 holm 0.384 | shift   -0.3% p 1
+
+== M5|lgbm  n=30  base vs seasonal naive -23.1%
+INV|T     adm=0 eff    +3.4% [  +0.8,  +6.1] wins  9/30 p 0.0221 holm 0.133 | shift   +3.1% p 0.00023
+INV|O     adm=1 eff    +1.4% [  -0.1,  +2.9] wins 11/30 p 0.0636 holm 0.318 | shift   -0.4% p 0.82
+SES|T     adm=0 eff   -85.7% [ -87.9, -83.1] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift +701.2% p 9.31e-10
+SES|O     adm=1 eff    -0.1% [  -2.2,  +2.3] wins 18/30 p 0.871 holm 1 | shift   -1.0% p 0.901
+NV|T      adm=0 eff   -29.0% [ -33.7, -24.3] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift  +41.8% p 9.31e-10
+NV|O      adm=1 eff    +1.2% [  -2.8,  +6.5] wins 15/30 p 0.612 holm 1 | shift   -1.5% p 0.825
+ROLL|T    adm=0 eff   -18.5% [ -21.1, -16.0] wins 30/30 p 1.86e-09 holm 2.61e-08 | shift  +25.5% p 9.31e-10
+ROLL|O    adm=1 eff    +3.2% [  +1.0,  +5.5] wins 10/30 p 0.00277 holm 0.0194 | shift   -1.4% p 0.96
+CMA|T     adm=0 eff   -16.9% [ -19.8, -14.0] wins 29/30 p 3.73e-09 holm 4.1e-08 | shift   +2.0% p 0.092
+CMA|O     adm=0 eff    -4.9% [  -6.7,  -3.0] wins 25/30 p 3.45e-05 holm 0.000311 | shift   +1.7% p 0.00497
+CMA|O*    adm=1 eff    +0.3% [  -1.0,  +1.5] wins 13/30 p 0.7 holm 1 | shift   -0.5% p 0.915
+HP|T      adm=0 eff    -6.3% [  -9.7,  -3.1] wins 21/30 p 0.00158 holm 0.0127 | shift   +0.2% p 0.42
+HP|O      adm=0 eff    -8.9% [ -11.6,  -6.3] wins 27/30 p 2.05e-07 holm 2.05e-06 | shift   +0.2% p 0.251
+HP|O*     adm=1 eff    -0.3% [  -1.6,  +0.9] wins 17/30 p 0.584 holm 1 | shift   -1.3% p 0.65
+
+== M5|xgb  n=30  base vs seasonal naive -23.1%
+INV|T     adm=0 eff    +2.7% [  +0.2,  +5.1] wins  9/30 p 0.0523 holm 0.366
+INV|O     adm=1 eff    +0.8% [  -0.4,  +2.2] wins 15/30 p 0.299 holm 1
+SES|T     adm=0 eff   -86.0% [ -88.3, -83.1] wins 30/30 p 1.86e-09 holm 2.61e-08
+SES|O     adm=1 eff    +0.0% [  -2.8,  +3.7] wins 17/30 p 0.452 holm 1
+NV|T      adm=0 eff   -30.1% [ -34.5, -25.5] wins 30/30 p 1.86e-09 holm 2.61e-08
+NV|O      adm=1 eff    +0.9% [  -3.2,  +6.2] wins 16/30 p 0.229 holm 1
+ROLL|T    adm=0 eff   -15.9% [ -18.3, -13.5] wins 29/30 p 3.73e-09 holm 4.1e-08
+ROLL|O    adm=1 eff    +2.8% [  +0.0,  +6.1] wins 11/30 p 0.0841 holm 0.504
+CMA|T     adm=0 eff   -17.7% [ -20.6, -14.8] wins 30/30 p 1.86e-09 holm 2.61e-08
+CMA|O     adm=0 eff    -4.4% [  -6.5,  -2.3] wins 23/30 p 0.00038 holm 0.00342
+CMA|O*    adm=1 eff    -0.5% [  -1.5,  +0.5] wins 17/30 p 0.271 holm 1
+HP|T      adm=0 eff    -5.6% [  -8.7,  -2.6] wins 23/30 p 0.00172 holm 0.0137
+HP|O      adm=0 eff    -9.0% [ -11.4,  -6.7] wins 29/30 p 1.86e-08 holm 1.86e-07
+HP|O*     adm=1 eff    -0.0% [  -1.8,  +2.5] wins 17/30 p 0.245 holm 1
+
+== M5|mlp  n=15  base vs seasonal naive +35.3%
+INV|T     adm=0 eff   -13.8% [ -21.2,  -6.0] wins 11/15 p 0.0151 holm 0.0754
+INV|O     adm=1 eff   -17.4% [ -23.4, -11.3] wins 13/15 p 0.000305 holm 0.00244
+SES|T     adm=0 eff   -12.3% [ -19.9,  -4.4] wins 10/15 p 0.0554 holm 0.166
+SES|O     adm=1 eff   +13.6% [  +6.4, +21.0] wins  3/15 p 0.00427 holm 0.0256
+NV|T      adm=0 eff    +1.2% [  -7.5, +10.1] wins  7/15 p 0.762 holm 0.779
+NV|O      adm=1 eff   +15.4% [  +7.3, +23.0] wins  3/15 p 0.00336 holm 0.0235
+ROLL|T    adm=0 eff   +11.2% [  +2.4, +20.7] wins  3/15 p 0.0302 holm 0.121
+ROLL|O    adm=1 eff    +3.8% [  -3.3, +11.8] wins  7/15 p 0.389 holm 0.779
+CMA|T     adm=0 eff   -39.7% [ -44.1, -35.0] wins 15/15 p 6.1e-05 holm 0.000854
+CMA|O     adm=0 eff   -30.6% [ -35.9, -25.6] wins 15/15 p 6.1e-05 holm 0.000854
+CMA|O*    adm=1 eff   -31.2% [ -36.8, -25.8] wins 15/15 p 6.1e-05 holm 0.000854
+HP|T      adm=0 eff   -36.6% [ -41.0, -32.2] wins 15/15 p 6.1e-05 holm 0.000854
+HP|O      adm=0 eff   -36.3% [ -40.9, -31.9] wins 15/15 p 6.1e-05 holm 0.000854
+HP|O*     adm=1 eff   -30.1% [ -35.4, -25.2] wins 15/15 p 6.1e-05 holm 0.000854
+
+== M4D|ridge  n=40  base vs seasonal naive -13.7%
+INV|T     adm=0 eff    +1.6% [  +0.2,  +3.5] wins 15/40 p 0.0747 holm 0.448 | shift   -0.0% p 0.592
+INV|O     adm=1 eff    +0.6% [  -0.5,  +1.6] wins 19/40 p 0.666 holm 1 | shift   -0.7% p 0.939
+SES|T     adm=0 eff   -99.9% [ -99.9, -99.8] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift +30052.3% p 9.09e-13
+SES|O     adm=1 eff    -0.0% [  -0.1,  +0.0] wins 22/40 p 0.112 holm 0.559 | shift   +0.0% p 0.0658
+NV|T      adm=0 eff   -25.1% [ -29.4, -20.5] wins 38/40 p 1e-10 holm 9e-10 | shift   +7.1% p 9.09e-12
+NV|O      adm=1 eff    +0.7% [  -0.3,  +1.8] wins 18/40 p 0.154 holm 0.615 | shift   -0.4% p 0.906
+ROLL|T    adm=0 eff   -53.1% [ -56.4, -49.5] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift  +26.2% p 9.09e-13
+ROLL|O    adm=1 eff    +0.2% [  -0.7,  +1.0] wins 18/40 p 0.963 holm 1 | shift   -0.1% p 0.418
+CMA|T     adm=0 eff   -71.7% [ -74.0, -69.2] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   +6.9% p 6.37e-12
+CMA|O     adm=0 eff   -22.5% [ -34.2, -13.7] wins 34/40 p 7.84e-09 holm 6.27e-08 | shift   +7.2% p 3.94e-07
+CMA|O*    adm=1 eff    -0.0% [  -0.0,  +0.0] wins 22/40 p 0.572 holm 1 | shift   +0.0% p 0.199
+HP|T      adm=0 eff   -45.8% [ -49.0, -42.5] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   -1.8% p 1
+HP|O      adm=0 eff   -41.1% [ -44.5, -37.6] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   +1.2% p 9.13e-08
+HP|O*     adm=1 eff    +0.5% [  -0.1,  +1.1] wins 13/40 p 0.0232 holm 0.162 | shift   +0.0% p 0.592
+
+== M4D|lgbm  n=40  base vs seasonal naive +13.1%
+INV|T     adm=0 eff    -2.0% [  -4.0,  +0.0] wins 24/40 p 0.0466 holm 0.326 | shift   -0.3% p 0.476
+INV|O     adm=1 eff    -1.5% [  -3.6,  +0.8] wins 22/40 p 0.15 holm 0.899 | shift   +0.5% p 0.0529
+SES|T     adm=0 eff   -84.8% [ -88.0, -80.4] wins 39/40 p 9.09e-12 holm 1.09e-10 | shift +198.8% p 1e-10
+SES|O     adm=1 eff    -1.1% [  -3.2,  +0.6] wins 23/40 p 0.259 holm 1 | shift   +0.3% p 0.372
+NV|T      adm=0 eff   -28.8% [ -34.8, -22.7] wins 38/40 p 2.49e-10 holm 2.24e-09 | shift  +11.9% p 2.79e-10
+NV|O      adm=1 eff    +1.6% [  -1.3,  +4.5] wins 16/40 p 0.192 holm 0.961 | shift   +1.1% p 0.127
+ROLL|T    adm=0 eff   -48.6% [ -52.4, -44.6] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift  +26.2% p 6.9e-09
+ROLL|O    adm=1 eff    -0.0% [  -2.4,  +2.3] wins 22/40 p 0.826 holm 1 | shift   +1.0% p 0.073
+CMA|T     adm=0 eff   -66.0% [ -69.4, -62.2] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   +8.0% p 4.08e-06
+CMA|O     adm=0 eff    -8.0% [ -11.8,  -4.8] wins 33/40 p 5.37e-06 holm 4.3e-05 | shift   +2.3% p 1.91e-05
+CMA|O*    adm=1 eff    -1.0% [  -3.8,  +1.1] wins 21/40 p 0.775 holm 1 | shift   -0.5% p 0.613
+HP|T      adm=0 eff   -38.1% [ -43.6, -32.4] wins 38/40 p 1.27e-11 holm 1.4e-10 | shift   -1.3% p 0.876
+HP|O      adm=0 eff   -26.7% [ -31.8, -21.5] wins 39/40 p 4.55e-11 holm 4.55e-10 | shift   +2.6% p 2.37e-05
+HP|O*     adm=1 eff    -0.1% [  -3.6,  +3.0] wins 17/40 p 0.428 holm 1 | shift   +0.1% p 0.597
+
+== M4D|xgb  n=40  base vs seasonal naive +16.3%
+INV|T     adm=0 eff    -1.0% [  -3.1,  +1.3] wins 28/40 p 0.0603 holm 0.422
+INV|O     adm=1 eff    -0.2% [  -2.4,  +2.0] wins 19/40 p 0.816 holm 1
+SES|T     adm=0 eff   -87.1% [ -90.1, -82.9] wins 39/40 p 9.09e-12 holm 1e-10
+SES|O     adm=1 eff    -0.2% [  -2.0,  +2.2] wins 27/40 p 0.118 holm 0.709
+NV|T      adm=0 eff   -29.6% [ -35.3, -23.6] wins 36/40 p 1.39e-09 holm 1.25e-08
+NV|O      adm=1 eff    +2.4% [  -0.7,  +5.5] wins 17/40 p 0.132 holm 0.709
+ROLL|T    adm=0 eff   -51.0% [ -56.4, -45.8] wins 40/40 p 1.82e-12 holm 2.55e-11
+ROLL|O    adm=1 eff    +0.5% [  -1.4,  +2.4] wins 21/40 p 0.9 holm 1
+CMA|T     adm=0 eff   -67.1% [ -70.3, -63.3] wins 40/40 p 1.82e-12 holm 2.55e-11
+CMA|O     adm=0 eff    -9.3% [ -15.5,  -4.5] wins 29/40 p 4.1e-05 holm 0.000328
+CMA|O*    adm=1 eff    -0.7% [  -1.7,  +0.4] wins 23/40 p 0.334 holm 1
+HP|T      adm=0 eff   -39.9% [ -45.4, -34.3] wins 38/40 p 1.27e-11 holm 1.27e-10
+HP|O      adm=0 eff   -28.2% [ -34.2, -22.1] wins 40/40 p 1.82e-12 holm 2.55e-11
+HP|O*     adm=1 eff    -1.4% [  -4.8,  +1.5] wins 21/40 p 0.563 holm 1
+
+== M4D|mlp  n=15  base vs seasonal naive +67.3%
+INV|T     adm=0 eff  +133.0% [+103.7,+168.4] wins  0/15 p 6.1e-05 holm 0.000854
+INV|O     adm=1 eff  +144.9% [+116.0,+182.8] wins  0/15 p 6.1e-05 holm 0.000854
+SES|T     adm=0 eff    +3.2% [  -7.9, +15.0] wins  6/15 p 0.524 holm 1
+SES|O     adm=1 eff    +6.0% [  -4.8, +18.0] wins  5/15 p 0.252 holm 0.757
+NV|T      adm=0 eff   +11.9% [  +0.7, +22.6] wins  3/15 p 0.0833 holm 0.416
+NV|O      adm=1 eff   +16.2% [  +2.0, +32.0] wins  5/15 p 0.0554 holm 0.332
+ROLL|T    adm=0 eff    +4.2% [  -9.2, +18.8] wins  7/15 p 0.524 holm 1
+ROLL|O    adm=1 eff    +7.6% [  -3.5, +19.5] wins  5/15 p 0.135 holm 0.542
+CMA|T     adm=0 eff   +99.3% [ +77.8,+125.4] wins  0/15 p 6.1e-05 holm 0.000854
+CMA|O     adm=0 eff   +90.5% [ +68.9,+117.4] wins  0/15 p 6.1e-05 holm 0.000854
+CMA|O*    adm=1 eff   +89.2% [ +68.1,+115.6] wins  0/15 p 6.1e-05 holm 0.000854
+HP|T      adm=0 eff   +98.3% [ +76.5,+124.1] wins  0/15 p 6.1e-05 holm 0.000854
+HP|O      adm=0 eff   +89.8% [ +69.3,+115.7] wins  0/15 p 6.1e-05 holm 0.000854
+HP|O*     adm=1 eff   +92.2% [ +71.0,+118.2] wins  0/15 p 6.1e-05 holm 0.000854
+
+== M4H|ridge  n=40  base vs seasonal naive -34.1%
+INV|T     adm=0 eff    -0.2% [  -1.1,  +0.7] wins 17/40 p 0.826 holm 1 | shift   +0.1% p 0.0675
+INV|O     adm=1 eff    +1.6% [  +0.0,  +3.6] wins 19/40 p 0.283 holm 1 | shift   +0.2% p 0.17
+SES|T     adm=0 eff   -99.0% [ -99.6, -97.7] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift +1507.0% p 9.09e-13
+SES|O     adm=1 eff    +0.1% [  -0.5,  +0.6] wins 17/40 p 0.536 holm 1 | shift   -0.0% p 0.519
+NV|T      adm=0 eff   -18.1% [ -24.9, -11.4] wins 38/40 p 7.82e-11 holm 9.39e-10 | shift   +1.1% p 1.91e-05
+NV|O      adm=1 eff    -0.9% [  -2.5,  +0.8] wins 26/40 p 0.162 holm 0.809 | shift   +0.0% p 0.29
+ROLL|T    adm=0 eff   -26.5% [ -31.7, -21.1] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   +3.9% p 9.09e-13
+ROLL|O    adm=1 eff    +0.9% [  -1.7,  +3.9] wins 22/40 p 0.816 holm 1 | shift   -0.2% p 0.98
+CMA|T     adm=0 eff   +67.2% [ +40.3, +99.2] wins 12/40 p 2.1e-05 holm 0.000189 | shift   -7.3% p 1
+CMA|O     adm=0 eff   -12.0% [ -16.6,  -7.6] wins 36/40 p 6.78e-09 holm 7.45e-08 | shift   +0.5% p 0.000168
+CMA|O*    adm=1 eff    +0.0% [  +0.0,  +0.0] wins 16/40 p 0.0603 holm 0.362 | shift   +0.0% p 0.816
+HP|T      adm=0 eff   +51.9% [ +28.8, +80.5] wins 12/40 p 0.00015 holm 0.0012 | shift   -5.2% p 1
+HP|O      adm=0 eff    -9.9% [ -15.3,  -4.1] wins 30/40 p 0.000798 holm 0.00559 | shift   +0.2% p 0.012
+HP|O*     adm=1 eff    -1.3% [  -1.9,  -0.7] wins 32/40 p 1.81e-05 holm 0.000181 | shift   +0.0% p 0.0938
+
+== M4H|lgbm  n=40  base vs seasonal naive -22.5%
+INV|T     adm=0 eff   +45.9% [ +29.7, +65.8] wins  6/40 p 4.47e-08 holm 5.37e-07 | shift   +0.3% p 0.13
+INV|O     adm=1 eff   +11.1% [  +6.2, +16.1] wins 11/40 p 7.2e-05 holm 0.00072 | shift   +0.3% p 0.21
+SES|T     adm=0 eff   -69.3% [ -76.8, -60.0] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift  +76.9% p 9.09e-13
+SES|O     adm=1 eff    +0.3% [  -0.6,  +1.2] wins 20/40 p 0.705 holm 1 | shift   +0.1% p 0.398
+NV|T      adm=0 eff   -21.3% [ -28.1, -14.6] wins 37/40 p 3.16e-09 holm 4.11e-08 | shift   +3.2% p 0.00019
+NV|O      adm=1 eff    -2.7% [  -5.4,  -0.1] wins 28/40 p 0.0241 holm 0.0963 | shift   +0.1% p 0.628
+ROLL|T    adm=0 eff   -12.8% [ -17.6,  -8.0] wins 33/40 p 3.19e-06 holm 3.51e-05 | shift   +0.8% p 0.00601
+ROLL|O    adm=1 eff    -4.3% [  -6.9,  -1.6] wins 29/40 p 0.0032 holm 0.0192 | shift   -0.6% p 0.987
+CMA|T     adm=0 eff   -13.5% [ -19.9,  -6.9] wins 30/40 p 0.000233 holm 0.00187 | shift   +0.2% p 0.555
+CMA|O     adm=0 eff    -0.7% [  -2.8,  +1.4] wins 20/40 p 0.627 holm 1 | shift   -0.1% p 0.672
+CMA|O*    adm=1 eff    +1.4% [  +0.3,  +2.6] wins 13/40 p 0.0259 holm 0.0963 | shift   +1.2% p 0.00333
+HP|T      adm=0 eff   -13.0% [ -19.4,  -5.8] wins 30/40 p 0.000264 holm 0.00187 | shift   -1.2% p 0.986
+HP|O      adm=0 eff    -3.2% [  -5.2,  -1.2] wins 29/40 p 0.00387 holm 0.0193 | shift   -0.3% p 0.623
+HP|O*     adm=1 eff    +2.2% [  +1.1,  +3.4] wins  9/40 p 0.00017 holm 0.00153 | shift   -0.4% p 0.897
+
+== M4H|xgb  n=40  base vs seasonal naive -15.8%
+INV|T     adm=0 eff   +13.4% [  +8.2, +19.1] wins 12/40 p 2.1e-05 holm 0.000147
+INV|O     adm=1 eff    -2.3% [  -3.9,  -0.8] wins 29/40 p 0.00305 holm 0.00582
+SES|T     adm=0 eff   -69.6% [ -77.0, -60.1] wins 40/40 p 1.82e-12 holm 2.55e-11
+SES|O     adm=1 eff    +2.0% [  +0.9,  +3.1] wins  7/40 p 0.000941 holm 0.00471
+NV|T      adm=0 eff   -25.0% [ -31.9, -17.7] wins 38/40 p 6.46e-08 holm 8.4e-07
+NV|O      adm=1 eff    -4.2% [  -6.9,  -1.5] wins 29/40 p 0.00144 holm 0.00576
+ROLL|T    adm=0 eff   -17.3% [ -22.4, -12.2] wins 35/40 p 1.16e-07 holm 1.4e-06
+ROLL|O    adm=1 eff    -7.3% [ -10.6,  -4.0] wins 32/40 p 0.000123 holm 0.000739
+CMA|T     adm=0 eff   -18.5% [ -25.1, -11.8] wins 34/40 p 6.91e-06 holm 5.53e-05
+CMA|O     adm=0 eff    -7.6% [ -10.3,  -5.0] wins 32/40 p 2.92e-06 holm 2.63e-05
+CMA|O*    adm=1 eff    -2.6% [  -4.0,  -1.2] wins 27/40 p 0.0016 holm 0.00576
+HP|T      adm=0 eff   -20.4% [ -26.4, -13.9] wins 34/40 p 8.69e-07 holm 8.69e-06
+HP|O      adm=0 eff   -10.1% [ -13.1,  -7.0] wins 35/40 p 3.49e-07 holm 3.84e-06
+HP|O*     adm=1 eff    -2.8% [  -4.6,  -1.2] wins 29/40 p 0.00291 holm 0.00582
+
+== M4H|mlp  n=15  base vs seasonal naive +80.5%
+INV|T     adm=0 eff   +14.8% [  -0.8, +36.3] wins  4/15 p 0.135 holm 0.812
+INV|O     adm=1 eff   +48.3% [ +17.3, +97.0] wins  1/15 p 0.00153 holm 0.0198
+SES|T     adm=0 eff   -33.3% [ -50.5,  -8.2] wins 12/15 p 0.0215 holm 0.237
+SES|O     adm=1 eff    +3.6% [ -11.4, +22.8] wins  7/15 p 0.847 holm 1
+NV|T      adm=0 eff    -4.1% [ -23.5, +23.2] wins  9/15 p 0.639 holm 1
+NV|O      adm=1 eff   +17.0% [  -1.2, +41.7] wins  5/15 p 0.0946 holm 0.662
+ROLL|T    adm=0 eff    -7.1% [ -21.8, +12.3] wins  9/15 p 0.389 holm 1
+ROLL|O    adm=1 eff    +6.3% [ -11.4, +28.3] wins  5/15 p 0.454 holm 1
+CMA|T     adm=0 eff   -28.6% [ -40.3, -16.4] wins 14/15 p 0.00116 holm 0.0162
+CMA|O     adm=0 eff   -15.1% [ -29.0,  -2.7] wins 11/15 p 0.0479 holm 0.479
+CMA|O*    adm=1 eff   -14.5% [ -28.2,  -1.9] wins 11/15 p 0.073 holm 0.584
+HP|T      adm=0 eff   -25.4% [ -37.2, -12.9] wins 13/15 p 0.00262 holm 0.0315
+HP|O      adm=0 eff   -14.3% [ -28.0,  -1.9] wins 11/15 p 0.0554 holm 0.498
+HP|O*     adm=1 eff   -12.4% [ -26.2,  -0.2] wins  9/15 p 0.151 holm 0.812
+
+== ELEC|ridge  n=40  base vs seasonal naive -15.8%
+INV|T     adm=0 eff    -0.4% [  -1.1,  +0.2] wins 23/40 p 0.666 holm 1 | shift   +0.2% p 0.00233
+INV|O     adm=1 eff    +0.2% [  -0.4,  +0.8] wins 17/40 p 0.51 holm 1 | shift   -0.3% p 0.971
+SES|T     adm=0 eff   -99.9% [-100.0, -99.9] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift +100033.3% p 9.09e-13
+SES|O     adm=1 eff    +0.0% [  -0.0,  +0.0] wins 22/40 p 0.725 holm 1 | shift   +0.0% p 0.0363
+NV|T      adm=0 eff   -24.6% [ -28.5, -20.8] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   +8.4% p 3e-11
+NV|O      adm=1 eff    +0.9% [  -0.1,  +1.9] wins 13/40 p 0.0725 holm 0.435 | shift   +0.0% p 0.597
+ROLL|T    adm=0 eff   -21.0% [ -25.5, -17.1] wins 39/40 p 3.64e-12 holm 3.64e-11 | shift   +5.5% p 9.09e-13
+ROLL|O    adm=1 eff    +1.7% [  +0.3,  +3.0] wins 12/40 p 0.00637 holm 0.051 | shift   -0.1% p 0.915
+CMA|T     adm=0 eff   -36.6% [ -44.4, -29.9] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   -0.9% p 1
+CMA|O     adm=0 eff    -2.7% [  -5.2,  -0.9] wins 23/40 p 0.0232 holm 0.162 | shift   +0.4% p 0.000584
+CMA|O*    adm=1 eff    -0.0% [  -0.0,  +0.0] wins 21/40 p 0.121 holm 0.607 | shift   +0.0% p 0.135
+HP|T      adm=0 eff   -35.6% [ -42.8, -29.3] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift   -0.6% p 1
+HP|O      adm=0 eff    -4.5% [  -7.8,  -1.9] wins 25/40 p 0.00177 holm 0.0159 | shift   +0.5% p 9.09e-13
+HP|O*     adm=1 eff    -0.1% [  -0.8,  +0.7] wins 20/40 p 0.889 holm 1 | shift   +0.0% p 0.333
+
+== ELEC|lgbm  n=40  base vs seasonal naive -16.6%
+INV|T     adm=0 eff    -3.3% [  -5.7,  -0.8] wins 29/40 p 0.0061 holm 0.0305 | shift   -0.4% p 0.481
+INV|O     adm=1 eff    -2.9% [  -4.2,  -1.5] wins 30/40 p 1.04e-05 holm 9.36e-05 | shift   -0.0% p 0.357
+SES|T     adm=0 eff   -85.8% [ -87.6, -83.8] wins 40/40 p 1.82e-12 holm 2.55e-11 | shift +314.6% p 9.09e-13
+SES|O     adm=1 eff    -0.0% [  -0.8,  +0.8] wins 21/40 p 0.536 holm 1 | shift   -0.3% p 0.662
+NV|T      adm=0 eff   -21.4% [ -28.6, -15.0] wins 39/40 p 5.46e-12 holm 7.09e-11 | shift   +6.5% p 9.09e-13
+NV|O      adm=1 eff    +0.1% [  -1.2,  +1.4] wins 23/40 p 0.765 holm 1 | shift   +0.4% p 0.0352
+ROLL|T    adm=0 eff   -13.5% [ -22.9,  -6.8] wins 33/40 p 9.58e-07 holm 9.58e-06 | shift   +4.2% p 1.15e-09
+ROLL|O    adm=1 eff    +0.0% [  -1.8,  +1.9] wins 20/40 p 0.91 holm 1 | shift   -0.1% p 0.481
+CMA|T     adm=0 eff   -22.1% [ -30.7, -14.7] wins 37/40 p 1.27e-10 holm 1.53e-09 | shift   +0.8% p 0.121
+CMA|O     adm=0 eff    -3.2% [  -5.1,  -1.5] wins 28/40 p 0.000479 holm 0.00288 | shift   +0.6% p 0.00319
+CMA|O*    adm=1 eff    -1.6% [  -2.4,  -0.8] wins 30/40 p 0.000379 holm 0.00265 | shift   +0.1% p 0.268
+HP|T      adm=0 eff   -22.7% [ -31.4, -15.5] wins 37/40 p 2e-10 holm 2.2e-09 | shift   +0.5% p 0.0893
+HP|O      adm=0 eff    -4.1% [  -7.1,  -1.9] wins 30/40 p 0.000181 holm 0.00145 | shift   +0.1% p 0.135
+HP|O*     adm=1 eff    -1.0% [  -1.9,  -0.2] wins 31/40 p 0.00758 holm 0.0305 | shift   -0.2% p 0.887
+
+== ELEC|xgb  n=40  base vs seasonal naive -19.0%
+INV|T     adm=0 eff    +0.1% [  -1.9,  +2.2] wins 20/40 p 0.837 holm 1
+INV|O     adm=1 eff    +0.8% [  +0.1,  +1.6] wins 16/40 p 0.0436 holm 0.393
+SES|T     adm=0 eff   -85.0% [ -86.7, -83.2] wins 40/40 p 1.82e-12 holm 2.55e-11
+SES|O     adm=1 eff    +0.2% [  -0.4,  +1.0] wins 21/40 p 0.735 holm 1
+NV|T      adm=0 eff   -21.4% [ -27.9, -15.9] wins 37/40 p 4.55e-11 holm 5.91e-10
+NV|O      adm=1 eff    -0.1% [  -1.2,  +1.2] wins 23/40 p 0.295 holm 1
+ROLL|T    adm=0 eff   -11.8% [ -20.8,  -4.7] wins 28/40 p 0.000317 holm 0.00317
+ROLL|O    adm=1 eff    +0.6% [  -1.1,  +2.5] wins 19/40 p 0.785 holm 1
+CMA|T     adm=0 eff   -20.7% [ -29.0, -13.4] wins 38/40 p 3.07e-10 holm 3.38e-09
+CMA|O     adm=0 eff    -1.3% [  -2.8,  +0.1] wins 23/40 p 0.128 holm 0.897
+CMA|O*    adm=1 eff    -0.1% [  -0.8,  +0.5] wins 17/40 p 1 holm 1
+HP|T      adm=0 eff   -22.6% [ -31.7, -14.9] wins 36/40 p 2e-10 holm 2.4e-09
+HP|O      adm=0 eff    -2.5% [  -5.9,  -0.0] wins 25/40 p 0.0817 holm 0.654
+HP|O*     adm=1 eff    +0.4% [  -0.3,  +1.1] wins 18/40 p 0.375 holm 1
+
+== ELEC|mlp  n=15  base vs seasonal naive +16.7%
+INV|T     adm=0 eff    -3.9% [ -15.0,  +7.0] wins  6/15 p 0.934 holm 1
+INV|O     adm=1 eff    -2.0% [ -16.5, +13.2] wins  8/15 p 0.934 holm 1
+SES|T     adm=0 eff   -23.7% [ -39.1,  -6.9] wins 10/15 p 0.0479 holm 0.479
+SES|O     adm=1 eff    +5.2% [  -9.5, +21.5] wins  7/15 p 0.561 holm 1
+NV|T      adm=0 eff   +62.4% [ +23.0,+111.7] wins  4/15 p 0.00836 holm 0.1
+NV|O      adm=1 eff  +114.6% [ +55.7,+196.7] wins  1/15 p 0.00061 holm 0.00854
+ROLL|T    adm=0 eff   +18.8% [  -2.0, +40.7] wins  4/15 p 0.107 holm 0.749
+ROLL|O    adm=1 eff   +64.5% [ +33.2,+104.5] wins  2/15 p 0.00116 holm 0.0151
+CMA|T     adm=0 eff    -3.5% [ -27.4, +22.0] wins  7/15 p 0.762 holm 1
+CMA|O     adm=0 eff   +26.3% [  +3.8, +54.0] wins  4/15 p 0.0479 holm 0.479
+CMA|O*    adm=1 eff   -14.4% [ -25.3,  -2.0] wins 11/15 p 0.0479 holm 0.479
+HP|T      adm=0 eff    -9.0% [ -29.3, +12.3] wins  6/15 p 0.978 holm 1
+HP|O      adm=0 eff   +21.4% [  +2.9, +43.2] wins  5/15 p 0.0413 holm 0.454
+HP|O*     adm=1 eff    -9.6% [ -19.5,  +1.8] wins 11/15 p 0.135 holm 0.812

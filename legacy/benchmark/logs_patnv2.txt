@@ -1,0 +1,2 @@
+1.0 single-draw 0.928 any of 5 0.9591 any of 20 0.9636 by ds {'M5': np.float64(1.0), 'M4D': np.float64(0.9), 'M4H': np.float64(1.0)}
+3.0 single-draw 0.9818 any of 5 0.9955 any of 20 0.9955 by ds {'M5': np.float64(1.0), 'M4D': np.float64(0.988), 'M4H': np.float64(1.0)}

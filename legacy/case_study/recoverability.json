@@ -1,0 +1,212 @@
+{
+ "CA_1_FOODS": {
+  "lags_only": 0.7384958153960745,
+  "rolling_same_day": 0.304329429671265,
+  "twin_same_day": 0.4239875550801684,
+  "all_same_day": 0.8191425892422051,
+  "twin_lagged_1": 0.15289118648863675
+ },
+ "CA_1_HOBBIES": {
+  "lags_only": 0.3800877840589786,
+  "rolling_same_day": 0.33607797024832087,
+  "twin_same_day": 0.34839127355027066,
+  "all_same_day": 0.5480246426578039,
+  "twin_lagged_1": 0.12106215973154388
+ },
+ "CA_1_HOUSEHOLD": {
+  "lags_only": 0.8376520582978455,
+  "rolling_same_day": 0.4613948833688948,
+  "twin_same_day": 0.46316817455679127,
+  "all_same_day": 0.8735459802218505,
+  "twin_lagged_1": 0.23810347798069365
+ },
+ "CA_2_FOODS": {
+  "lags_only": 0.7584773194063054,
+  "rolling_same_day": 0.29169194838160095,
+  "twin_same_day": 0.48726411220804666,
+  "all_same_day": 0.831860073346024,
+  "twin_lagged_1": 0.15461600046503932
+ },
+ "CA_2_HOBBIES": {
+  "lags_only": 0.41952308383100434,
+  "rolling_same_day": 0.25517960671412576,
+  "twin_same_day": 0.3064502771628741,
+  "all_same_day": 0.5599801524026045,
+  "twin_lagged_1": 0.06870688739400543
+ },
+ "CA_2_HOUSEHOLD": {
+  "lags_only": 0.8393615087059088,
+  "rolling_same_day": 0.23216033628665245,
+  "twin_same_day": 0.38169017827186613,
+  "all_same_day": 0.8783191206902858,
+  "twin_lagged_1": 0.08021563401715937
+ },
+ "CA_3_FOODS": {
+  "lags_only": 0.6392056793029149,
+  "rolling_same_day": 0.49385259747892096,
+  "twin_same_day": 0.42215317309184663,
+  "all_same_day": 0.7873873989635011,
+  "twin_lagged_1": 0.23240213853423863
+ },
+ "CA_3_HOBBIES": {
+  "lags_only": 0.4426323708340588,
+  "rolling_same_day": 0.5010281353327384,
+  "twin_same_day": 0.453554325555494,
+  "all_same_day": 0.6168224562667024,
+  "twin_lagged_1": 0.27742658132895337
+ },
+ "CA_3_HOUSEHOLD": {
+  "lags_only": 0.8222570031794523,
+  "rolling_same_day": 0.6286232278346935,
+  "twin_same_day": 0.5559517089183181,
+  "all_same_day": 0.8755363320449397,
+  "twin_lagged_1": 0.3813409510350271
+ },
+ "CA_4_FOODS": {
+  "lags_only": 0.6479949105399424,
+  "rolling_same_day": 0.515660361384159,
+  "twin_same_day": 0.496550645376741,
+  "all_same_day": 0.761819039041401,
+  "twin_lagged_1": 0.2682246309663522
+ },
+ "CA_4_HOBBIES": {
+  "lags_only": 0.4155447319665643,
+  "rolling_same_day": 0.5493673213907069,
+  "twin_same_day": 0.46064389192288036,
+  "all_same_day": 0.5906764940940964,
+  "twin_lagged_1": 0.3188475837759448
+ },
+ "CA_4_HOUSEHOLD": {
+  "lags_only": 0.7819232862647821,
+  "rolling_same_day": 0.6988153754343966,
+  "twin_same_day": 0.556505351914641,
+  "all_same_day": 0.8249233676579139,
+  "twin_lagged_1": 0.4615908667068135
+ },
+ "TX_1_FOODS": {
+  "lags_only": 0.5319301494062505,
+  "rolling_same_day": 0.2941108285236427,
+  "twin_same_day": 0.41876259675058936,
+  "all_same_day": 0.7102621449714948,
+  "twin_lagged_1": 0.1115759628779952
+ },
+ "TX_1_HOBBIES": {
+  "lags_only": 0.4089171359145609,
+  "rolling_same_day": 0.3214991209918553,
+  "twin_same_day": 0.3060680909822472,
+  "all_same_day": 0.5299148870731865,
+  "twin_lagged_1": 0.1119115718890955
+ },
+ "TX_1_HOUSEHOLD": {
+  "lags_only": 0.7885931340823926,
+  "rolling_same_day": 0.5604291266531115,
+  "twin_same_day": 0.5024191015444874,
+  "all_same_day": 0.8544754889710607,
+  "twin_lagged_1": 0.3206068428724729
+ },
+ "TX_2_FOODS": {
+  "lags_only": 0.6191321013948756,
+  "rolling_same_day": 0.36260576677565504,
+  "twin_same_day": 0.42154319224010184,
+  "all_same_day": 0.7621617971037628,
+  "twin_lagged_1": 0.19802143936837646
+ },
+ "TX_2_HOBBIES": {
+  "lags_only": 0.4710607054366118,
+  "rolling_same_day": 0.34716526802392034,
+  "twin_same_day": 0.3573480632373326,
+  "all_same_day": 0.597782989252486,
+  "twin_lagged_1": 0.1381091190420103
+ },
+ "TX_2_HOUSEHOLD": {
+  "lags_only": 0.6782222236753994,
+  "rolling_same_day": 0.4826319275428289,
+  "twin_same_day": 0.4801527264879716,
+  "all_same_day": 0.7775457804447186,
+  "twin_lagged_1": 0.2594426854580262
+ },
+ "TX_3_FOODS": {
+  "lags_only": 0.5139742380208554,
+  "rolling_same_day": 0.36156998624355663,
+  "twin_same_day": 0.4286731080154762,
+  "all_same_day": 0.7037105595638965,
+  "twin_lagged_1": 0.15259251272885666
+ },
+ "TX_3_HOBBIES": {
+  "lags_only": 0.5680067962951258,
+  "rolling_same_day": 0.5768666748689291,
+  "twin_same_day": 0.47671777090139433,
+  "all_same_day": 0.6777182325574472,
+  "twin_lagged_1": 0.33226662058742196
+ },
+ "TX_3_HOUSEHOLD": {
+  "lags_only": 0.7757968152331904,
+  "rolling_same_day": 0.6666306072073325,
+  "twin_same_day": 0.55176465644179,
+  "all_same_day": 0.8531104708223012,
+  "twin_lagged_1": 0.40345564349132856
+ },
+ "WI_1_FOODS": {
+  "lags_only": 0.8504511000386545,
+  "rolling_same_day": 0.6903727962678994,
+  "twin_same_day": 0.6190840574003844,
+  "all_same_day": 0.8972942368235038,
+  "twin_lagged_1": 0.5013514265412702
+ },
+ "WI_1_HOBBIES": {
+  "lags_only": 0.5371258296528074,
+  "rolling_same_day": 0.23117719386491875,
+  "twin_same_day": 0.26485869841315113,
+  "all_same_day": 0.6505566944478444,
+  "twin_lagged_1": 0.06333000815954304
+ },
+ "WI_1_HOUSEHOLD": {
+  "lags_only": 0.7291897628499675,
+  "rolling_same_day": 0.40680977780594596,
+  "twin_same_day": 0.3917856805809651,
+  "all_same_day": 0.8136661883376441,
+  "twin_lagged_1": 0.18095213085501616
+ },
+ "WI_2_FOODS": {
+  "lags_only": 0.7265315005988209,
+  "rolling_same_day": 0.7989607759204298,
+  "twin_same_day": 0.6119683282550159,
+  "all_same_day": 0.8625596438572032,
+  "twin_lagged_1": 0.5106300279250957
+ },
+ "WI_2_HOBBIES": {
+  "lags_only": 0.497671778390847,
+  "rolling_same_day": 0.5485240131693909,
+  "twin_same_day": 0.44417077280294315,
+  "all_same_day": 0.6316446296801184,
+  "twin_lagged_1": 0.3133402977881904
+ },
+ "WI_2_HOUSEHOLD": {
+  "lags_only": 0.7057824847402798,
+  "rolling_same_day": 0.7044809654319157,
+  "twin_same_day": 0.5652853712287759,
+  "all_same_day": 0.8291376175532159,
+  "twin_lagged_1": 0.47060357479865766
+ },
+ "WI_3_FOODS": {
+  "lags_only": 0.6122370778865521,
+  "rolling_same_day": 0.5610233990033507,
+  "twin_same_day": 0.49460850422306624,
+  "all_same_day": 0.7861656797664228,
+  "twin_lagged_1": 0.2522898452657
+ },
+ "WI_3_HOBBIES": {
+  "lags_only": 0.23062812844322722,
+  "rolling_same_day": 0.21734908434902223,
+  "twin_same_day": 0.2722371931507298,
+  "all_same_day": 0.4132287300665005,
+  "twin_lagged_1": 0.05668414968760571
+ },
+ "WI_3_HOUSEHOLD": {
+  "lags_only": 0.6044323472363797,
+  "rolling_same_day": 0.3415990847265403,
+  "twin_same_day": 0.4085547851574599,
+  "all_same_day": 0.749906466460948,
+  "twin_lagged_1": 0.13341793737912633
+ }
+}

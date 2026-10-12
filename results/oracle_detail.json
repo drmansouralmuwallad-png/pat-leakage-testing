@@ -1,0 +1,1160 @@
+{
+ "summary": {
+  "SEL_ALL|big": 19,
+  "SEL_ALL|zero": 14,
+  "FLAG_ALL|big": 38,
+  "SEL_ALL|gauss5": 26,
+  "WINS_ALL|zero": 63,
+  "WINS_ALL|big": 1,
+  "FLAG_ALL|zero": 6,
+  "SEL_ALL(tab)|structured-or-random": 24
+ },
+ "records": [
+  {
+   "panel": "M5",
+   "series": "CA_1|HOBBIES",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "CA_2|FOODS",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M5",
+   "series": "CA_1|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M5",
+   "series": "CA_2|HOBBIES",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M5",
+   "series": "CA_2|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "CA_3|FOODS",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "CA_4|FOODS",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M5",
+   "series": "TX_1|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "TX_2|FOODS",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "TX_3|FOODS",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "TX_3|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "WI_1|HOBBIES",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "WI_1|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "WI_2|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M5",
+   "series": "WI_3|FOODS",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M5",
+   "series": "WI_3|HOUSEHOLD",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D489",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D489",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D489",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D489",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D489",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D673",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D718",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D765",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D765",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D765",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D765",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D859",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D859",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D859",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D859",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D859",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D903",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D905",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D905",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D905",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1042",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1042",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1178",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1186",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1223",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1223",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1325",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1325",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1325",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1325",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1325",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1371",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1371",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1394",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1394",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1394",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1394",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1394",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1406",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1406",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1406",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1406",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1406",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1601",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1601",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1601",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1601",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D1601",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2026",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2030",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2030",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2030",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2030",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2343",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2572",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2572",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2572",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2660",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2660",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2660",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2660",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2660",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2665",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2665",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2665",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2665",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2672",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2672",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2672",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2689",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2689",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2689",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2700",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2717",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2717",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2717",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2717",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2826",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2826",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2826",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2868",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D2955",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3037",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3139",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3139",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3145",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3180",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3180",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3180",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3180",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3212",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3212",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3212",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3212",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3212",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3325",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3325",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3325",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3372",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3372",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3485",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3485",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3485",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4D",
+   "series": "D3485",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4H",
+   "series": "H170",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H170",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H177",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H177",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H178",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H178",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H179",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H179",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H186",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H186",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H204",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H211",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H211",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H219",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4H",
+   "series": "H219",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H219",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "M4H",
+   "series": "H225",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H225",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H252",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H254",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H254",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H254",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H254",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H261",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H261",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H270",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H270",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H273",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H293",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H293",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H293",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H297",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H308",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H308",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H311",
+   "source": "C5_chain__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H311",
+   "source": "C6_robust__WINS_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H314",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "M4H",
+   "series": "H360",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_005",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_082",
+   "source": "C3_seasonal__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_082",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "gauss5"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_082",
+   "source": "C6_robust__FLAG_ALL",
+   "killed_by": "big"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_101",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_131",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_229",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_295",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "zero"
+  },
+  {
+   "panel": "ELEC",
+   "series": "MT_304",
+   "source": "C4_selection__SEL_ALL",
+   "killed_by": "big"
+  },
+  {
+   "dataset": "adult",
+   "split": 4,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "adult",
+   "split": 5,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "adult",
+   "split": 6,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "adult",
+   "split": 8,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "adult",
+   "split": 9,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 0,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 1,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 2,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 3,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 4,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 5,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 6,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 7,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 8,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "german",
+   "split": 9,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 0,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 1,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 2,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 3,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 4,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 5,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 6,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 7,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  },
+  {
+   "dataset": "breast_cancer",
+   "split": 8,
+   "source": "D3_selection__SEL_ALL",
+   "killed_by": "structured-or-random"
+  }
+ ]
+}

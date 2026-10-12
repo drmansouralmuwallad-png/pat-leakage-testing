@@ -1,0 +1,3838 @@
+{
+ "library/K__ce_catboost_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 6.5091303239996705,
+   "tail": []
+  }
+ },
+ "library/K__ce_catboost_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.137780149999799,
+   "tail": []
+  }
+ },
+ "library/K__ce_count_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.430056485000023,
+   "tail": []
+  }
+ },
+ "library/K__ce_count_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 6.9248362579996865,
+   "tail": []
+  }
+ },
+ "library/K__ce_james_stein_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.919118394999714,
+   "tail": []
+  }
+ },
+ "library/K__ce_james_stein_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.55759082700024,
+   "tail": []
+  }
+ },
+ "library/K__ce_loo_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.760496379000415,
+   "tail": []
+  }
+ },
+ "library/K__ce_loo_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.122467501999836,
+   "tail": []
+  }
+ },
+ "library/K__ce_m_estimate_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.45661328999995,
+   "tail": []
+  }
+ },
+ "library/K__ce_m_estimate_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.331603965999875,
+   "tail": []
+  }
+ },
+ "library/K__ce_ordinal_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.298770246999993,
+   "tail": []
+  }
+ },
+ "library/K__ce_ordinal_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.652913847000036,
+   "tail": []
+  }
+ },
+ "library/K__ce_target_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.099169953,
+   "tail": []
+  }
+ },
+ "library/K__ce_target_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.770726356000068,
+   "tail": []
+  }
+ },
+ "library/K__ce_woe_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.482812725000258,
+   "tail": []
+  }
+ },
+ "library/K__ce_woe_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.752214191999883,
+   "tail": []
+  }
+ },
+ "library/K__sk_iterative_imputer__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 9.003565077000076,
+   "tail": []
+  }
+ },
+ "library/K__sk_iterative_imputer__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.833700086000135,
+   "tail": []
+  }
+ },
+ "library/K__sk_kbins__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.250776391999807,
+   "tail": []
+  }
+ },
+ "library/K__sk_kbins__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.584470881000016,
+   "tail": []
+  }
+ },
+ "library/K__sk_knn_imputer__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.172843203999946,
+   "tail": []
+  }
+ },
+ "library/K__sk_knn_imputer__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.262626557999738,
+   "tail": []
+  }
+ },
+ "library/K__sk_minmax_scaler__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.096532721999665,
+   "tail": []
+  }
+ },
+ "library/K__sk_minmax_scaler__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.15179566200004,
+   "tail": []
+  }
+ },
+ "library/K__sk_onehot__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.323065943000074,
+   "tail": []
+  }
+ },
+ "library/K__sk_onehot__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.174212475999866,
+   "tail": []
+  }
+ },
+ "library/K__sk_pca__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.68111897200015,
+   "tail": []
+  }
+ },
+ "library/K__sk_pca__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.732092700000067,
+   "tail": []
+  }
+ },
+ "library/K__sk_quantile_transformer__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.913482596999984,
+   "tail": []
+  }
+ },
+ "library/K__sk_quantile_transformer__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.692781893000301,
+   "tail": []
+  }
+ },
+ "library/K__sk_robust_scaler__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.883256701999926,
+   "tail": []
+  }
+ },
+ "library/K__sk_robust_scaler__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.959834526000122,
+   "tail": []
+  }
+ },
+ "library/K__sk_selectkbest__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 9.053086789999725,
+   "tail": []
+  }
+ },
+ "library/K__sk_selectkbest__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.07494986699976,
+   "tail": []
+  }
+ },
+ "library/K__sk_simple_imputer_mean__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.8073461029998725,
+   "tail": []
+  }
+ },
+ "library/K__sk_simple_imputer_mean__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.848610755999744,
+   "tail": []
+  }
+ },
+ "library/K__sk_simple_imputer_median__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.968694596000205,
+   "tail": []
+  }
+ },
+ "library/K__sk_simple_imputer_median__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 9.09403875299995,
+   "tail": []
+  }
+ },
+ "library/K__sk_standard_scaler__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.914438490000066,
+   "tail": []
+  }
+ },
+ "library/K__sk_standard_scaler__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.613166829999955,
+   "tail": []
+  }
+ },
+ "library/K__sk_target_encoder__A.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.6987751149999895,
+   "tail": []
+  }
+ },
+ "library/K__sk_target_encoder__B.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.119114336000166,
+   "tail": []
+  }
+ },
+ "library/T__fe_expanding_features.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.269233677000102,
+   "tail": []
+  }
+ },
+ "library/T__fe_lag_features.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.873954579999918,
+   "tail": []
+  }
+ },
+ "library/T__fe_window_features.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.843130712999937,
+   "tail": []
+  }
+ },
+ "library/T__np_convolve_same.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.687349191000067,
+   "tail": []
+  }
+ },
+ "library/T__np_gradient.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.251296260000345,
+   "tail": []
+  }
+ },
+ "library/T__pd_bfill.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.794107702000019,
+   "tail": []
+  }
+ },
+ "library/T__pd_diff.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.84337935900021,
+   "tail": []
+  }
+ },
+ "library/T__pd_ewm.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.638372977000017,
+   "tail": []
+  }
+ },
+ "library/T__pd_expanding.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.837682452000081,
+   "tail": []
+  }
+ },
+ "library/T__pd_ffill.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.649100713999815,
+   "tail": []
+  }
+ },
+ "library/T__pd_interpolate.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.0213698880002084,
+   "tail": []
+  }
+ },
+ "library/T__pd_pct_change.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.208095373000106,
+   "tail": []
+  }
+ },
+ "library/T__pd_qcut.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.578858266000225,
+   "tail": []
+  }
+ },
+ "library/T__pd_rank_pct.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.967516371999864,
+   "tail": []
+  }
+ },
+ "library/T__pd_rolling_center.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.05444710699976,
+   "tail": []
+  }
+ },
+ "library/T__pd_rolling_mean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.952512810999906,
+   "tail": []
+  }
+ },
+ "library/T__pd_rolling_quantile.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.059824940999988,
+   "tail": []
+  }
+ },
+ "library/T__pd_zscore.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.069527917999949,
+   "tail": []
+  }
+ },
+ "library/T__sk_function_log1p.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.103298245000133,
+   "tail": []
+  }
+ },
+ "library/T__sk_kbins.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.425846413999807,
+   "tail": []
+  }
+ },
+ "library/T__sk_minmax_scaler.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.218342812000174,
+   "tail": []
+  }
+ },
+ "library/T__sk_standard_scaler.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.177627416000178,
+   "tail": []
+  }
+ },
+ "library/T__sm_arima_fitted.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.005799166000088,
+   "tail": []
+  }
+ },
+ "library/T__sm_cffilter.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.503247111000292,
+   "tail": []
+  }
+ },
+ "library/T__sm_decompose_1s_seasonal.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.512027813999794,
+   "tail": []
+  }
+ },
+ "library/T__sm_decompose_1s_trend.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.57793224299985,
+   "tail": []
+  }
+ },
+ "library/T__sm_decompose_2s_trend.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.370816036000178,
+   "tail": []
+  }
+ },
+ "library/T__sm_ets_fitted.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.359421955000016,
+   "tail": []
+  }
+ },
+ "library/T__sm_hpfilter.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 6.728797421999843,
+   "tail": []
+  }
+ },
+ "library/T__sm_ses_fixed.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.780132892999973,
+   "tail": []
+  }
+ },
+ "library/T__sm_stl_trend.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.965984925000157,
+   "tail": []
+  }
+ },
+ "library/T__sm_uc_filtered.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.827490130000115,
+   "tail": []
+  }
+ },
+ "library/T__sm_uc_smoothed.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.835755873999915,
+   "tail": []
+  }
+ },
+ "library/T__sp_detrend.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.531713167000362,
+   "tail": []
+  }
+ },
+ "library/T__sp_filtfilt.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.405302114000278,
+   "tail": []
+  }
+ },
+ "library/T__sp_gaussian_filter1d.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.94547436799985,
+   "tail": []
+  }
+ },
+ "library/T__sp_lfilter.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.599399333000292,
+   "tail": []
+  }
+ },
+ "library/T__sp_medfilt.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.281441538999843,
+   "tail": []
+  }
+ },
+ "library/T__sp_savgol.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.3991626500001075,
+   "tail": []
+  }
+ },
+ "library/T__sp_uniform_filter1d.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.290967534999709,
+   "tail": []
+  }
+ },
+ "tabular/adult/D1_impute_scale_ohe__IMPUTE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 6.899625553000078,
+   "tail": []
+  }
+ },
+ "tabular/adult/D1_impute_scale_ohe__SCALE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.152315132999775,
+   "tail": []
+  }
+ },
+ "tabular/adult/D1_impute_scale_ohe__SCALE_PANDAS_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.717026196000006,
+   "tail": []
+  }
+ },
+ "tabular/adult/D1_impute_scale_ohe__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.583013396999831,
+   "tail": []
+  }
+ },
+ "tabular/adult/D2_target_encoding__TE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.386750321000363,
+   "tail": []
+  }
+ },
+ "tabular/adult/D2_target_encoding__TE_LOO_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.622217551000176,
+   "tail": []
+  }
+ },
+ "tabular/adult/D2_target_encoding__TE_PANDAS_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.500054113999795,
+   "tail": []
+  }
+ },
+ "tabular/adult/D2_target_encoding__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.550814327999888,
+   "tail": []
+  }
+ },
+ "tabular/adult/D3_selection__SEL_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.990229503999672,
+   "tail": []
+  }
+ },
+ "tabular/adult/D3_selection__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.098832743999992,
+   "tail": []
+  }
+ },
+ "tabular/adult/D4_pca__PCA_ALL_CONCAT.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.02101633700022,
+   "tail": []
+  }
+ },
+ "tabular/adult/D4_pca__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.926983383999868,
+   "tail": []
+  }
+ },
+ "tabular/adult/D5_knn_impute__KNNIMPUTE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.228699126000265,
+   "tail": []
+  }
+ },
+ "tabular/adult/D5_knn_impute__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.325636241999746,
+   "tail": []
+  }
+ },
+ "tabular/adult/D6_oversample__OVERSAMPLE_BEFORE_SPLIT.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.078152999999475,
+   "tail": []
+  }
+ },
+ "tabular/adult/D6_oversample__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.214453972999763,
+   "tail": []
+  }
+ },
+ "tabular/adult/D7_sklearn_target_encoder__TE_SK_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.277005502000065,
+   "tail": []
+  }
+ },
+ "tabular/adult/D7_sklearn_target_encoder__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.402999642000395,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D1_impute_scale_ohe__IMPUTE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.200988827999936,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D1_impute_scale_ohe__SCALE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.454818217000138,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D1_impute_scale_ohe__SCALE_PANDAS_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 8.394434611999714,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D1_impute_scale_ohe__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 8.531327847000284,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D3_selection__SEL_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.660440376000224,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D3_selection__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.331807249999656,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D4_pca__PCA_ALL_CONCAT.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 7.752313551999578,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D4_pca__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 7.515013141000054,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D5_knn_impute__KNNIMPUTE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.241452608000145,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D5_knn_impute__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.643405853000331,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D6_oversample__OVERSAMPLE_BEFORE_SPLIT.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.2380873839993,
+   "tail": []
+  }
+ },
+ "tabular/breast_cancer/D6_oversample__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.410832532000313,
+   "tail": []
+  }
+ },
+ "tabular/german/D1_impute_scale_ohe__IMPUTE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.572210364000057,
+   "tail": []
+  }
+ },
+ "tabular/german/D1_impute_scale_ohe__SCALE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.165841443999852,
+   "tail": []
+  }
+ },
+ "tabular/german/D1_impute_scale_ohe__SCALE_PANDAS_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.158332844000142,
+   "tail": []
+  }
+ },
+ "tabular/german/D1_impute_scale_ohe__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.2288960470004895,
+   "tail": []
+  }
+ },
+ "tabular/german/D2_target_encoding__TE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.2941451319993575,
+   "tail": []
+  }
+ },
+ "tabular/german/D2_target_encoding__TE_LOO_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.1425273049999305,
+   "tail": []
+  }
+ },
+ "tabular/german/D2_target_encoding__TE_PANDAS_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 5.468918457000655,
+   "tail": []
+  }
+ },
+ "tabular/german/D2_target_encoding__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.184236725000119,
+   "tail": []
+  }
+ },
+ "tabular/german/D3_selection__SEL_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.910997858999508,
+   "tail": []
+  }
+ },
+ "tabular/german/D3_selection__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.758676102999743,
+   "tail": []
+  }
+ },
+ "tabular/german/D4_pca__PCA_ALL_CONCAT.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.56285880500036,
+   "tail": []
+  }
+ },
+ "tabular/german/D4_pca__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.126633652000237,
+   "tail": []
+  }
+ },
+ "tabular/german/D5_knn_impute__KNNIMPUTE_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.59690530700027,
+   "tail": []
+  }
+ },
+ "tabular/german/D5_knn_impute__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.7519669040002555,
+   "tail": []
+  }
+ },
+ "tabular/german/D6_oversample__OVERSAMPLE_BEFORE_SPLIT.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.371280624000065,
+   "tail": []
+  }
+ },
+ "tabular/german/D6_oversample__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.242316469999423,
+   "tail": []
+  }
+ },
+ "tabular/german/D7_sklearn_target_encoder__TE_SK_ALL.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.894262197999524,
+   "tail": []
+  }
+ },
+ "tabular/german/D7_sklearn_target_encoder__clean.py": {
+  "toc_findings": null,
+  "toc_flagged": null,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 5.027670575999764,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__IMP_BFILL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.3746167239996794,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.299741308999728,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__OFF_BY_ONE.py": {
+  "toc_findings": [
+   [
+    "R1",
+    19
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.610191112999928,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.4615564870000526,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    21
+   ],
+   [
+    "R2",
+    22
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.462415503000557,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__SMOOTH_SAVGOL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.483037189999777,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C1_basic__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.465890701999342,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C2_scaled__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.471203577999404,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C2_scaled__SCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.4018163669998103,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C2_scaled__TSCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5316329460001725,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C2_scaled__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.7709608000004664,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C3_seasonal__DECOMP_TWOSIDED.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.53361458100062,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C3_seasonal__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.2580039480008054,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C3_seasonal__PROFILE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5067396909998934,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C3_seasonal__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.6317579369997475,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C4_selection__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    20
+   ],
+   [
+    "R2",
+    21
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.018490491999728,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C4_selection__SEL_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.167609920000359,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C4_selection__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.298375467999904,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C5_chain__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.3426919080002335,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C5_chain__PCA_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.030684504999954,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C5_chain__SCALE_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.10068810499979,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C5_chain__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.332945094000024,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C5_chain__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.9440457290002087,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C6_robust__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.434825512000316,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C6_robust__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.521007247999478,
+   "tail": []
+  }
+ },
+ "temporal/ELEC/C6_robust__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.771436057999381,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__IMP_BFILL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.650514478000332,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.3570656309993865,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__OFF_BY_ONE.py": {
+  "toc_findings": [
+   [
+    "R1",
+    19
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.549315631999889,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5043511149997357,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    21
+   ],
+   [
+    "R2",
+    22
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.601085869000599,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__SMOOTH_SAVGOL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.6362795260001803,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C1_basic__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.4677154850005536,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C2_scaled__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.652473459000248,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C2_scaled__SCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.774451085000692,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C2_scaled__TSCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.7399063459997706,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C2_scaled__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.4643329210002776,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C3_seasonal__DECOMP_TWOSIDED.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.7869684899997083,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C3_seasonal__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5588830260003306,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C3_seasonal__PROFILE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.629759649999869,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C3_seasonal__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.6785000209993086,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C4_selection__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    20
+   ],
+   [
+    "R2",
+    21
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.988107969000339,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C4_selection__SEL_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.144369558999642,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C4_selection__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.859950716999265,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C5_chain__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.9840611600002376,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C5_chain__PCA_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.9857898379996186,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C5_chain__SCALE_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.935363765999682,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C5_chain__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.107278909999877,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C5_chain__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.967814892000206,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C6_robust__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5458846939991417,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C6_robust__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.760761215000457,
+   "tail": []
+  }
+ },
+ "temporal/M4D/C6_robust__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.535140765000506,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__IMP_BFILL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.2971317999999883,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.6059242679993986,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__OFF_BY_ONE.py": {
+  "toc_findings": [
+   [
+    "R1",
+    19
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.511526885999956,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5552180500008035,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    21
+   ],
+   [
+    "R2",
+    22
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.376887024000098,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__SMOOTH_SAVGOL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.483563777999734,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C1_basic__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.6243356400000266,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C2_scaled__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5544389829992724,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C2_scaled__SCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5069932919996063,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C2_scaled__TSCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5781725859997096,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C2_scaled__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.4571996559998297,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C3_seasonal__DECOMP_TWOSIDED.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.455881916999715,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C3_seasonal__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5162240859999656,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C3_seasonal__PROFILE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.519020415000341,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C3_seasonal__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.5989725170002203,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C4_selection__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    20
+   ],
+   [
+    "R2",
+    21
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.311173049999525,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C4_selection__SEL_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.9185158489999594,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C4_selection__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.9915020349999395,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C5_chain__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.14540401100021,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C5_chain__PCA_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.203277082000568,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C5_chain__SCALE_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.036299954000242,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C5_chain__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.1070854749996215,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C5_chain__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.202185494000332,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C6_robust__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.628563688000213,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C6_robust__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.8390822090004804,
+   "tail": []
+  }
+ },
+ "temporal/M4H/C6_robust__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.6292054630002895,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__IMP_BFILL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.6877330000006623,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.7463763149999068,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__OFF_BY_ONE.py": {
+  "toc_findings": [
+   [
+    "R1",
+    19
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.7868657159997383,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.7023161320003055,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    21
+   ],
+   [
+    "R2",
+    22
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.737601486999665,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__SMOOTH_SAVGOL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.422555344000102,
+   "tail": []
+  }
+ },
+ "temporal/M5/C1_basic__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5102505539998674,
+   "tail": []
+  }
+ },
+ "temporal/M5/C2_scaled__ROLL_CENTER.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.6878409749997445,
+   "tail": []
+  }
+ },
+ "temporal/M5/C2_scaled__SCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.7426680930002476,
+   "tail": []
+  }
+ },
+ "temporal/M5/C2_scaled__TSCALE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.5444754959999045,
+   "tail": []
+  }
+ },
+ "temporal/M5/C2_scaled__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.3952543220002553,
+   "tail": []
+  }
+ },
+ "temporal/M5/C3_seasonal__DECOMP_TWOSIDED.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 3.810688634000144,
+   "tail": []
+  }
+ },
+ "temporal/M5/C3_seasonal__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 12.564417154000012,
+   "tail": []
+  }
+ },
+ "temporal/M5/C3_seasonal__PROFILE_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 1,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.059219299000006,
+   "tail": []
+  }
+ },
+ "temporal/M5/C3_seasonal__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 0,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": false,
+   "seconds": 4.0727113460000055,
+   "tail": []
+  }
+ },
+ "temporal/M5/C4_selection__ROLL_NOSHIFT.py": {
+  "toc_findings": [
+   [
+    "R2",
+    20
+   ],
+   [
+    "R2",
+    21
+   ]
+  ],
+  "toc_flagged": true,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.421069272000068,
+   "tail": []
+  }
+ },
+ "temporal/M5/C4_selection__SEL_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.623156436000045,
+   "tail": []
+  }
+ },
+ "temporal/M5/C4_selection__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.346359359999951,
+   "tail": []
+  }
+ },
+ "temporal/M5/C5_chain__IMP_INTERP.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.443903814999885,
+   "tail": []
+  }
+ },
+ "temporal/M5/C5_chain__PCA_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.384305901000062,
+   "tail": []
+  }
+ },
+ "temporal/M5/C5_chain__SCALE_ALL_CONCAT.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 5,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.71794837199991,
+   "tail": []
+  }
+ },
+ "temporal/M5/C5_chain__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 4,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.640593734000049,
+   "tail": []
+  }
+ },
+ "temporal/M5/C5_chain__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 4.444450425000014,
+   "tail": []
+  }
+ },
+ "temporal/M5/C6_robust__FLAG_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.750609746000009,
+   "tail": []
+  }
+ },
+ "temporal/M5/C6_robust__WINS_ALL.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 3,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.82613074599999,
+   "tail": []
+  }
+ },
+ "temporal/M5/C6_robust__clean.py": {
+  "toc_findings": [],
+  "toc_flagged": false,
+  "yang": {
+   "ok": true,
+   "counts": {
+    "preprocessing": 2,
+    "overlap": 0,
+    "overlap_final": 0,
+    "multitest": 0
+   },
+   "flagged": true,
+   "seconds": 3.9780097749999186,
+   "tail": []
+  }
+ }
+}

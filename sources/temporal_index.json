@@ -1,0 +1,730 @@
+[
+ {
+  "panel": "M5",
+  "source": "C1_basic__clean",
+  "config": "C1_basic",
+  "op": null,
+  "path": "temporal/M5/C1_basic__clean.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C1_basic__IMP_BFILL",
+  "config": "C1_basic",
+  "op": "IMP_BFILL",
+  "path": "temporal/M5/C1_basic__IMP_BFILL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C1_basic__IMP_INTERP",
+  "config": "C1_basic",
+  "op": "IMP_INTERP",
+  "path": "temporal/M5/C1_basic__IMP_INTERP.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C1_basic__OFF_BY_ONE",
+  "config": "C1_basic",
+  "op": "OFF_BY_ONE",
+  "path": "temporal/M5/C1_basic__OFF_BY_ONE.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C1_basic__ROLL_NOSHIFT",
+  "config": "C1_basic",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/M5/C1_basic__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C1_basic__ROLL_CENTER",
+  "config": "C1_basic",
+  "op": "ROLL_CENTER",
+  "path": "temporal/M5/C1_basic__ROLL_CENTER.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C1_basic__SMOOTH_SAVGOL",
+  "config": "C1_basic",
+  "op": "SMOOTH_SAVGOL",
+  "path": "temporal/M5/C1_basic__SMOOTH_SAVGOL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C2_scaled__clean",
+  "config": "C2_scaled",
+  "op": null,
+  "path": "temporal/M5/C2_scaled__clean.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C2_scaled__SCALE_ALL",
+  "config": "C2_scaled",
+  "op": "SCALE_ALL",
+  "path": "temporal/M5/C2_scaled__SCALE_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C2_scaled__TSCALE_ALL",
+  "config": "C2_scaled",
+  "op": "TSCALE_ALL",
+  "path": "temporal/M5/C2_scaled__TSCALE_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C2_scaled__ROLL_CENTER",
+  "config": "C2_scaled",
+  "op": "ROLL_CENTER",
+  "path": "temporal/M5/C2_scaled__ROLL_CENTER.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C3_seasonal__clean",
+  "config": "C3_seasonal",
+  "op": null,
+  "path": "temporal/M5/C3_seasonal__clean.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C3_seasonal__PROFILE_ALL",
+  "config": "C3_seasonal",
+  "op": "PROFILE_ALL",
+  "path": "temporal/M5/C3_seasonal__PROFILE_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C3_seasonal__DECOMP_TWOSIDED",
+  "config": "C3_seasonal",
+  "op": "DECOMP_TWOSIDED",
+  "path": "temporal/M5/C3_seasonal__DECOMP_TWOSIDED.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C3_seasonal__FLAG_ALL",
+  "config": "C3_seasonal",
+  "op": "FLAG_ALL",
+  "path": "temporal/M5/C3_seasonal__FLAG_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C4_selection__clean",
+  "config": "C4_selection",
+  "op": null,
+  "path": "temporal/M5/C4_selection__clean.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C4_selection__SEL_ALL",
+  "config": "C4_selection",
+  "op": "SEL_ALL",
+  "path": "temporal/M5/C4_selection__SEL_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C4_selection__ROLL_NOSHIFT",
+  "config": "C4_selection",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/M5/C4_selection__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C5_chain__clean",
+  "config": "C5_chain",
+  "op": null,
+  "path": "temporal/M5/C5_chain__clean.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C5_chain__IMP_INTERP",
+  "config": "C5_chain",
+  "op": "IMP_INTERP",
+  "path": "temporal/M5/C5_chain__IMP_INTERP.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C5_chain__WINS_ALL",
+  "config": "C5_chain",
+  "op": "WINS_ALL",
+  "path": "temporal/M5/C5_chain__WINS_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C5_chain__SCALE_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "SCALE_ALL_CONCAT",
+  "path": "temporal/M5/C5_chain__SCALE_ALL_CONCAT.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C5_chain__PCA_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "PCA_ALL_CONCAT",
+  "path": "temporal/M5/C5_chain__PCA_ALL_CONCAT.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C6_robust__clean",
+  "config": "C6_robust",
+  "op": null,
+  "path": "temporal/M5/C6_robust__clean.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C6_robust__WINS_ALL",
+  "config": "C6_robust",
+  "op": "WINS_ALL",
+  "path": "temporal/M5/C6_robust__WINS_ALL.py"
+ },
+ {
+  "panel": "M5",
+  "source": "C6_robust__FLAG_ALL",
+  "config": "C6_robust",
+  "op": "FLAG_ALL",
+  "path": "temporal/M5/C6_robust__FLAG_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__clean",
+  "config": "C1_basic",
+  "op": null,
+  "path": "temporal/M4D/C1_basic__clean.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__IMP_BFILL",
+  "config": "C1_basic",
+  "op": "IMP_BFILL",
+  "path": "temporal/M4D/C1_basic__IMP_BFILL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__IMP_INTERP",
+  "config": "C1_basic",
+  "op": "IMP_INTERP",
+  "path": "temporal/M4D/C1_basic__IMP_INTERP.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__OFF_BY_ONE",
+  "config": "C1_basic",
+  "op": "OFF_BY_ONE",
+  "path": "temporal/M4D/C1_basic__OFF_BY_ONE.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__ROLL_NOSHIFT",
+  "config": "C1_basic",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/M4D/C1_basic__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__ROLL_CENTER",
+  "config": "C1_basic",
+  "op": "ROLL_CENTER",
+  "path": "temporal/M4D/C1_basic__ROLL_CENTER.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C1_basic__SMOOTH_SAVGOL",
+  "config": "C1_basic",
+  "op": "SMOOTH_SAVGOL",
+  "path": "temporal/M4D/C1_basic__SMOOTH_SAVGOL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C2_scaled__clean",
+  "config": "C2_scaled",
+  "op": null,
+  "path": "temporal/M4D/C2_scaled__clean.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C2_scaled__SCALE_ALL",
+  "config": "C2_scaled",
+  "op": "SCALE_ALL",
+  "path": "temporal/M4D/C2_scaled__SCALE_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C2_scaled__TSCALE_ALL",
+  "config": "C2_scaled",
+  "op": "TSCALE_ALL",
+  "path": "temporal/M4D/C2_scaled__TSCALE_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C2_scaled__ROLL_CENTER",
+  "config": "C2_scaled",
+  "op": "ROLL_CENTER",
+  "path": "temporal/M4D/C2_scaled__ROLL_CENTER.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C3_seasonal__clean",
+  "config": "C3_seasonal",
+  "op": null,
+  "path": "temporal/M4D/C3_seasonal__clean.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C3_seasonal__PROFILE_ALL",
+  "config": "C3_seasonal",
+  "op": "PROFILE_ALL",
+  "path": "temporal/M4D/C3_seasonal__PROFILE_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C3_seasonal__DECOMP_TWOSIDED",
+  "config": "C3_seasonal",
+  "op": "DECOMP_TWOSIDED",
+  "path": "temporal/M4D/C3_seasonal__DECOMP_TWOSIDED.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C3_seasonal__FLAG_ALL",
+  "config": "C3_seasonal",
+  "op": "FLAG_ALL",
+  "path": "temporal/M4D/C3_seasonal__FLAG_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C4_selection__clean",
+  "config": "C4_selection",
+  "op": null,
+  "path": "temporal/M4D/C4_selection__clean.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C4_selection__SEL_ALL",
+  "config": "C4_selection",
+  "op": "SEL_ALL",
+  "path": "temporal/M4D/C4_selection__SEL_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C4_selection__ROLL_NOSHIFT",
+  "config": "C4_selection",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/M4D/C4_selection__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C5_chain__clean",
+  "config": "C5_chain",
+  "op": null,
+  "path": "temporal/M4D/C5_chain__clean.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C5_chain__IMP_INTERP",
+  "config": "C5_chain",
+  "op": "IMP_INTERP",
+  "path": "temporal/M4D/C5_chain__IMP_INTERP.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C5_chain__WINS_ALL",
+  "config": "C5_chain",
+  "op": "WINS_ALL",
+  "path": "temporal/M4D/C5_chain__WINS_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C5_chain__SCALE_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "SCALE_ALL_CONCAT",
+  "path": "temporal/M4D/C5_chain__SCALE_ALL_CONCAT.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C5_chain__PCA_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "PCA_ALL_CONCAT",
+  "path": "temporal/M4D/C5_chain__PCA_ALL_CONCAT.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C6_robust__clean",
+  "config": "C6_robust",
+  "op": null,
+  "path": "temporal/M4D/C6_robust__clean.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C6_robust__WINS_ALL",
+  "config": "C6_robust",
+  "op": "WINS_ALL",
+  "path": "temporal/M4D/C6_robust__WINS_ALL.py"
+ },
+ {
+  "panel": "M4D",
+  "source": "C6_robust__FLAG_ALL",
+  "config": "C6_robust",
+  "op": "FLAG_ALL",
+  "path": "temporal/M4D/C6_robust__FLAG_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__clean",
+  "config": "C1_basic",
+  "op": null,
+  "path": "temporal/M4H/C1_basic__clean.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__IMP_BFILL",
+  "config": "C1_basic",
+  "op": "IMP_BFILL",
+  "path": "temporal/M4H/C1_basic__IMP_BFILL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__IMP_INTERP",
+  "config": "C1_basic",
+  "op": "IMP_INTERP",
+  "path": "temporal/M4H/C1_basic__IMP_INTERP.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__OFF_BY_ONE",
+  "config": "C1_basic",
+  "op": "OFF_BY_ONE",
+  "path": "temporal/M4H/C1_basic__OFF_BY_ONE.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__ROLL_NOSHIFT",
+  "config": "C1_basic",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/M4H/C1_basic__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__ROLL_CENTER",
+  "config": "C1_basic",
+  "op": "ROLL_CENTER",
+  "path": "temporal/M4H/C1_basic__ROLL_CENTER.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C1_basic__SMOOTH_SAVGOL",
+  "config": "C1_basic",
+  "op": "SMOOTH_SAVGOL",
+  "path": "temporal/M4H/C1_basic__SMOOTH_SAVGOL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C2_scaled__clean",
+  "config": "C2_scaled",
+  "op": null,
+  "path": "temporal/M4H/C2_scaled__clean.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C2_scaled__SCALE_ALL",
+  "config": "C2_scaled",
+  "op": "SCALE_ALL",
+  "path": "temporal/M4H/C2_scaled__SCALE_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C2_scaled__TSCALE_ALL",
+  "config": "C2_scaled",
+  "op": "TSCALE_ALL",
+  "path": "temporal/M4H/C2_scaled__TSCALE_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C2_scaled__ROLL_CENTER",
+  "config": "C2_scaled",
+  "op": "ROLL_CENTER",
+  "path": "temporal/M4H/C2_scaled__ROLL_CENTER.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C3_seasonal__clean",
+  "config": "C3_seasonal",
+  "op": null,
+  "path": "temporal/M4H/C3_seasonal__clean.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C3_seasonal__PROFILE_ALL",
+  "config": "C3_seasonal",
+  "op": "PROFILE_ALL",
+  "path": "temporal/M4H/C3_seasonal__PROFILE_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C3_seasonal__DECOMP_TWOSIDED",
+  "config": "C3_seasonal",
+  "op": "DECOMP_TWOSIDED",
+  "path": "temporal/M4H/C3_seasonal__DECOMP_TWOSIDED.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C3_seasonal__FLAG_ALL",
+  "config": "C3_seasonal",
+  "op": "FLAG_ALL",
+  "path": "temporal/M4H/C3_seasonal__FLAG_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C4_selection__clean",
+  "config": "C4_selection",
+  "op": null,
+  "path": "temporal/M4H/C4_selection__clean.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C4_selection__SEL_ALL",
+  "config": "C4_selection",
+  "op": "SEL_ALL",
+  "path": "temporal/M4H/C4_selection__SEL_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C4_selection__ROLL_NOSHIFT",
+  "config": "C4_selection",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/M4H/C4_selection__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C5_chain__clean",
+  "config": "C5_chain",
+  "op": null,
+  "path": "temporal/M4H/C5_chain__clean.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C5_chain__IMP_INTERP",
+  "config": "C5_chain",
+  "op": "IMP_INTERP",
+  "path": "temporal/M4H/C5_chain__IMP_INTERP.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C5_chain__WINS_ALL",
+  "config": "C5_chain",
+  "op": "WINS_ALL",
+  "path": "temporal/M4H/C5_chain__WINS_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C5_chain__SCALE_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "SCALE_ALL_CONCAT",
+  "path": "temporal/M4H/C5_chain__SCALE_ALL_CONCAT.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C5_chain__PCA_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "PCA_ALL_CONCAT",
+  "path": "temporal/M4H/C5_chain__PCA_ALL_CONCAT.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C6_robust__clean",
+  "config": "C6_robust",
+  "op": null,
+  "path": "temporal/M4H/C6_robust__clean.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C6_robust__WINS_ALL",
+  "config": "C6_robust",
+  "op": "WINS_ALL",
+  "path": "temporal/M4H/C6_robust__WINS_ALL.py"
+ },
+ {
+  "panel": "M4H",
+  "source": "C6_robust__FLAG_ALL",
+  "config": "C6_robust",
+  "op": "FLAG_ALL",
+  "path": "temporal/M4H/C6_robust__FLAG_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__clean",
+  "config": "C1_basic",
+  "op": null,
+  "path": "temporal/ELEC/C1_basic__clean.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__IMP_BFILL",
+  "config": "C1_basic",
+  "op": "IMP_BFILL",
+  "path": "temporal/ELEC/C1_basic__IMP_BFILL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__IMP_INTERP",
+  "config": "C1_basic",
+  "op": "IMP_INTERP",
+  "path": "temporal/ELEC/C1_basic__IMP_INTERP.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__OFF_BY_ONE",
+  "config": "C1_basic",
+  "op": "OFF_BY_ONE",
+  "path": "temporal/ELEC/C1_basic__OFF_BY_ONE.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__ROLL_NOSHIFT",
+  "config": "C1_basic",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/ELEC/C1_basic__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__ROLL_CENTER",
+  "config": "C1_basic",
+  "op": "ROLL_CENTER",
+  "path": "temporal/ELEC/C1_basic__ROLL_CENTER.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C1_basic__SMOOTH_SAVGOL",
+  "config": "C1_basic",
+  "op": "SMOOTH_SAVGOL",
+  "path": "temporal/ELEC/C1_basic__SMOOTH_SAVGOL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C2_scaled__clean",
+  "config": "C2_scaled",
+  "op": null,
+  "path": "temporal/ELEC/C2_scaled__clean.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C2_scaled__SCALE_ALL",
+  "config": "C2_scaled",
+  "op": "SCALE_ALL",
+  "path": "temporal/ELEC/C2_scaled__SCALE_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C2_scaled__TSCALE_ALL",
+  "config": "C2_scaled",
+  "op": "TSCALE_ALL",
+  "path": "temporal/ELEC/C2_scaled__TSCALE_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C2_scaled__ROLL_CENTER",
+  "config": "C2_scaled",
+  "op": "ROLL_CENTER",
+  "path": "temporal/ELEC/C2_scaled__ROLL_CENTER.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C3_seasonal__clean",
+  "config": "C3_seasonal",
+  "op": null,
+  "path": "temporal/ELEC/C3_seasonal__clean.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C3_seasonal__PROFILE_ALL",
+  "config": "C3_seasonal",
+  "op": "PROFILE_ALL",
+  "path": "temporal/ELEC/C3_seasonal__PROFILE_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C3_seasonal__DECOMP_TWOSIDED",
+  "config": "C3_seasonal",
+  "op": "DECOMP_TWOSIDED",
+  "path": "temporal/ELEC/C3_seasonal__DECOMP_TWOSIDED.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C3_seasonal__FLAG_ALL",
+  "config": "C3_seasonal",
+  "op": "FLAG_ALL",
+  "path": "temporal/ELEC/C3_seasonal__FLAG_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C4_selection__clean",
+  "config": "C4_selection",
+  "op": null,
+  "path": "temporal/ELEC/C4_selection__clean.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C4_selection__SEL_ALL",
+  "config": "C4_selection",
+  "op": "SEL_ALL",
+  "path": "temporal/ELEC/C4_selection__SEL_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C4_selection__ROLL_NOSHIFT",
+  "config": "C4_selection",
+  "op": "ROLL_NOSHIFT",
+  "path": "temporal/ELEC/C4_selection__ROLL_NOSHIFT.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C5_chain__clean",
+  "config": "C5_chain",
+  "op": null,
+  "path": "temporal/ELEC/C5_chain__clean.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C5_chain__IMP_INTERP",
+  "config": "C5_chain",
+  "op": "IMP_INTERP",
+  "path": "temporal/ELEC/C5_chain__IMP_INTERP.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C5_chain__WINS_ALL",
+  "config": "C5_chain",
+  "op": "WINS_ALL",
+  "path": "temporal/ELEC/C5_chain__WINS_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C5_chain__SCALE_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "SCALE_ALL_CONCAT",
+  "path": "temporal/ELEC/C5_chain__SCALE_ALL_CONCAT.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C5_chain__PCA_ALL_CONCAT",
+  "config": "C5_chain",
+  "op": "PCA_ALL_CONCAT",
+  "path": "temporal/ELEC/C5_chain__PCA_ALL_CONCAT.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C6_robust__clean",
+  "config": "C6_robust",
+  "op": null,
+  "path": "temporal/ELEC/C6_robust__clean.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C6_robust__WINS_ALL",
+  "config": "C6_robust",
+  "op": "WINS_ALL",
+  "path": "temporal/ELEC/C6_robust__WINS_ALL.py"
+ },
+ {
+  "panel": "ELEC",
+  "source": "C6_robust__FLAG_ALL",
+  "config": "C6_robust",
+  "op": "FLAG_ALL",
+  "path": "temporal/ELEC/C6_robust__FLAG_ALL.py"
+ }
+]

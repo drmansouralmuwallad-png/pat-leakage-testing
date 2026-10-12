@@ -1,0 +1,9 @@
+{
+  "title": "Replication package: Black-Box Testing of Machine-Learning Feature Pipelines for Information Leakage",
+  "upload_type": "software",
+  "creators": [{"name": "Almuwallad, Mansour", "affiliation": "Yanbu Industrial College, Royal Commission for Jubail and Yanbu", "orcid": "0009-0002-9547-0621"}],
+  "description": "Perturbation admissibility test (PAT) implementation, 238 pipeline scripts, leakage mutation operators, baselines, per-instance results and scripts that regenerate every table and figure.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": ["data leakage", "machine-learning testing", "metamorphic testing", "mutation analysis"]
+}
